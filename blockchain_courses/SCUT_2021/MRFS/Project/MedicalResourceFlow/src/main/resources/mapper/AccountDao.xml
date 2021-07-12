@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.edu.scut.medicalresourceflow.dao.AccountDao">
+  <resultMap id="BaseResultMap" type="cn.edu.scut.medicalresourceflow.entity.Account">
+    <id column="account_account_id" jdbcType="INTEGER" property="accountId" />
+    <result column="account_user_id" jdbcType="INTEGER" property="userId" />
+    <result column="account_address" jdbcType="VARCHAR" property="address" />
+    <result column="account_public_key" jdbcType="VARCHAR" property="publicKey" />
+    <result column="account_private_key" jdbcType="VARCHAR" property="privateKey" />
+    <result column="account_create_at" jdbcType="TIMESTAMP" property="createAt" />
+    <result column="account_update_at" jdbcType="TIMESTAMP" property="updateAt" />
+  </resultMap>
+  <resultMap id="AccountDTOMap" type="cn.edu.scut.medicalresourceflow.entity.dto.AccountDTO">
+    <result column="account_user_id" jdbcType="INTEGER" property="userId" />
+    <result column="account_address" jdbcType="VARCHAR" property="address" />
+    <result column="user_role" jdbcType="VARCHAR" property="role" />
+    <result column="user_name" jdbcType="VARCHAR" property="name" />
+    <result column="user_province" jdbcType="VARCHAR" property="province" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    account.account_id as account_account_id, account.user_id as account_user_id, account.address as account_address, 
+    account.public_key as account_public_key, account.private_key as account_private_key, 
+    account.create_at as account_create_at, account.update_at as account_update_at
+  </sql>
+  <sql id="Account_DTO_List">
+    account.user_id as account_user_id, account.address as account_address,
+    user.`role` as user_role, user.`name` as user_name, user.`province` as user_province
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from account
+    where account.account_id = #{accountId,jdbcType=INTEGER}
+  </select>
+  <select id="selectByUserId" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List"></include>
+    from account
+    where user_id = #{userId,jdbcType = INTEGER}
+  </select>
+  <select id="getAccountDTOByAddress" resultMap="AccountDTOMap"
+            parameterType="java.lang.String">
+    select
+    <include refid="Account_DTO_List"></include>
+    from
+      (select `address`,`user_id` from `account` where address = #{address,jdbcType=VARCHAR} )as account
+          left join `user` on account.user_id = user.user_id;
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from account
+    where account_id = #{accountId,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" keyColumn="account_id" keyProperty="accountId" parameterType="cn.edu.scut.medicalresourceflow.entity.Account" useGeneratedKeys="true">
+    insert into account (user_id, address, public_key, 
+      private_key, create_at, update_at
+      )
+    values (#{userId,jdbcType=INTEGER}, #{address,jdbcType=VARCHAR}, #{publicKey,jdbcType=VARCHAR}, 
+      #{privateKey,jdbcType=VARCHAR}, #{createAt,jdbcType=TIMESTAMP}, #{updateAt,jdbcType=TIMESTAMP}
+      )
+  </insert>
+  <insert id="insertSelective" keyColumn="account_id" keyProperty="accountId" parameterType="cn.edu.scut.medicalresourceflow.entity.Account" useGeneratedKeys="true">
+    insert into account
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="userId != null">
+        user_id,
+      </if>
+      <if test="address != null">
+        address,
+      </if>
+      <if test="publicKey != null">
+        public_key,
+      </if>
+      <if test="privateKey != null">
+        private_key,
+      </if>
+      <if test="createAt != null">
+        create_at,
+      </if>
+      <if test="updateAt != null">
+        update_at,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="userId != null">
+        #{userId,jdbcType=INTEGER},
+      </if>
+      <if test="address != null">
+        #{address,jdbcType=VARCHAR},
+      </if>
+      <if test="publicKey != null">
+        #{publicKey,jdbcType=VARCHAR},
+      </if>
+      <if test="privateKey != null">
+        #{privateKey,jdbcType=VARCHAR},
+      </if>
+      <if test="createAt != null">
+        #{createAt,jdbcType=TIMESTAMP},
+      </if>
+      <if test="updateAt != null">
+        #{updateAt,jdbcType=TIMESTAMP},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="cn.edu.scut.medicalresourceflow.entity.Account">
+    update account
+    <set>
+      <if test="userId != null">
+        user_id = #{userId,jdbcType=INTEGER},
+      </if>
+      <if test="address != null">
+        address = #{address,jdbcType=VARCHAR},
+      </if>
+      <if test="publicKey != null">
+        public_key = #{publicKey,jdbcType=VARCHAR},
+      </if>
+      <if test="privateKey != null">
+        private_key = #{privateKey,jdbcType=VARCHAR},
+      </if>
+      <if test="createAt != null">
+        create_at = #{createAt,jdbcType=TIMESTAMP},
+      </if>
+      <if test="updateAt != null">
+        update_at = #{updateAt,jdbcType=TIMESTAMP},
+      </if>
+    </set>
+    where account_id = #{accountId,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="cn.edu.scut.medicalresourceflow.entity.Account">
+    update account
+    set user_id = #{userId,jdbcType=INTEGER},
+      address = #{address,jdbcType=VARCHAR},
+      public_key = #{publicKey,jdbcType=VARCHAR},
+      private_key = #{privateKey,jdbcType=VARCHAR},
+      create_at = #{createAt,jdbcType=TIMESTAMP},
+      update_at = #{updateAt,jdbcType=TIMESTAMP}
+    where account_id = #{accountId,jdbcType=INTEGER}
+  </update>
+</mapper>

@@ -1,0 +1,13 @@
+spring:
+  profiles:
+    active:
+  jackson:
+    time-zone: Asia/Shanghai
+
+server:
+  port: 45001
+
+static:
+  contract-owner-private-key: "53783c2cf5cd758b896433d6d901b44b4e51d3af0984de46164758dcbf553789"
+
+

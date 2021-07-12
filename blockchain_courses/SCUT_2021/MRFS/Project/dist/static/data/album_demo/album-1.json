@@ -1,0 +1,54 @@
+{
+	"albumList": [
+		{
+			"name": "广东广州",
+			"ads": "中国 广东 广州",
+			"coverImg1": require("@asset/image/albums/广东广州/img1.jpg"),
+			"coverImg2": require("@asset/image/albums/广东广州/img3.jpg"),
+			"coverImg3": require("@asset/image/albums/广东广州/img3.jpg")
+		},
+		{
+			"name": "广东汕头",
+			"ads": "中国 广东 汕头",
+			"coverImg1": require("@asset/image/albums/广东汕头/img1.jpg"),
+			"coverImg2": require("@asset/image/albums/广东汕头/img2.jpg"),
+			"coverImg3": require("@asset/image/albums/广东汕头/img3.jpg")
+		},
+		{
+			"name": "广东湛江",
+			"ads": "中国 广东 湛江",
+			"coverImg1": require("@asset/image/albums/广东湛江/img2.jpg"),
+			"coverImg2": require("@asset/image/albums/广东湛江/img2.jpg"),
+			"coverImg3": require("@asset/image/albums/广东湛江/img3.jpg")
+		},
+		{
+			"name": "广东珠海",
+			"ads": "中国 广东 珠海",
+			"coverImg1": require("@asset/image/albums/广东珠海/img1.jpg")
+		},
+		{
+			"name": "中国北京",
+			"ads": "中国 北京",
+			"coverImg1": require("@asset/image/albums/中国北京/img1.jpg"),
+			"coverImg2": require("@asset/image/albums/中国北京/img2.jpg"),
+			"coverImg3": require("@asset/image/albums/中国北京/img3.jpg")
+		},
+		{
+			"name": "中国重庆",
+			"ads": "中国 重庆",
+			"coverImg1": require("@asset/image/albums/中国重庆/img2.jpg")
+		},
+		{
+			"name": "四川成都",
+			"ads": "中国 四川 成都",
+			"coverImg1": require("@asset/image/albums/四川成都/img1.jpg")
+		},
+		{
+			"name": "江苏苏州",
+			"ads": "中国 江苏 苏州",
+			"coverImg1": require("@asset/image/albums/江苏苏州/img1.jpg"),
+			"coverImg2": require("@asset/image/albums/江苏苏州/img2.jpg"),
+			"coverImg3": require("@asset/image/albums/江苏苏州/img3.jpg")
+		}
+	]
+}
