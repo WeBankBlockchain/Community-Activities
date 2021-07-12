@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Register - Brand</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
+</head>
+
+<body class="bg-gradient-primary">
+    <div class="container">
+        <div class="card shadow-lg o-hidden border-0 my-5">
+            <div class="card-body p-0">
+                <div class="row">
+                    <div class="col-lg-5 d-none d-lg-flex">
+                        <div class="flex-grow-1 bg-register-image"
+                            style="background: url(&quot;assets/img/dogs/login02.jpg&quot;) round;"></div>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="p-5">
+                            <div class="text-center">
+                                <h1 style="font-size: 30px;color: rgb(41,51,122);">学习凭证网络</h1>
+                                <h4 class="text-dark mb-4">Create an Account!</h4>
+                            </div>
+                            <form class="user">
+                                <div class="form-group row">
+                                    <div class="col-sm-6 col-lg-12 mb-3 mb-sm-0"><input
+                                            class="form-control form-control-user" type="text" id="userName"
+                                            placeholder="Name" name="first_name"></div>
+                                </div>
+                                <div class="form-group row">
+                                    <div class="col-sm-6 mb-3 mb-sm-0"><input class="form-control form-control-user"
+                                            type="password" placeholder="Password" id="password" name="password"></div>
+                                    <div class="col-sm-6"><input class="form-control form-control-user" type="password"
+                                            id="passwordAgain" placeholder="Repeat Password" name="password_repeat">
+                                    </div>
+                                </div><button class="btn btn-primary btn-block text-white btn-user" type="button"
+                                    id="registerButton">Register Account</button>
+                                <hr>
+                                <hr>
+                            </form>
+                            <div class="text-center" id="message" style="color:red"></div>
+                            <div class="text-center"><a class="small" href="login.html">Already have an account?
+                                    Login!</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/global.js"></script>
+    <script>
+        console.log(globalStr);
+        $(document).ready(function () {
+            console.log(globalStr.urlStr);
+            $('#userName').html("");
+
+            $('#registerButton').on('click', function () {
+                if ($('#userName').val() == "" || $('#password').val() == "" || $('#passwordAgain')
+                    .val() == "") {
+                    $('#message').html("请填写所有信息后点击注册按钮");
+                    return;
+                }
+
+                var userName = $('#userName').val();
+                var password = $('#password').val();
+                var passwordAgain = $('#passwordAgain').val();
+                if (password != passwordAgain) {
+                    $('#message').html("两次输入的密码不同，请重新输入");
+                    $('#passwordAgain').html("");
+                    return;
+                } else {
+                    $('#message').html("");
+                }
+
+                console.log("运行到这里");
+
+                $.ajax({
+                    url: 'http://' + globalStr.urlStr + '/Auth/register',
+                    contentType: 'application/json',
+                    type: 'POST',
+                    timeout: 5000,
+                    dataType: 'JSON',
+                    //上传的数据
+                    data: JSON.stringify({
+                        "name": userName,
+                        "pwd": password
+                    }),
+                    success: function (res) {
+
+                        if (res.message == "成功") {
+                            var messageStr = "注册成功！您的用户id为:" + res.data + "。请做好记录，用于登陆系统";
+                            $('#message').html(messageStr);
+                        }
+
+                    },
+                    Error: function (xhr, type, errorThrown) {
+                        console.log(JSON.stringify(xhr));
+                        console.log(type);
+                        console.log(errorThrown);
+                    },
+
+                    complete: function (xhr, type, errorThrown) {
+                        console.log(JSON.stringify(xhr));
+                        console.log(type);
+                        console.log(errorThrown);
+                    },
+                });
+
+
+            })
+
+        });
+    </script>
+
+
+</body>
+
+</html>

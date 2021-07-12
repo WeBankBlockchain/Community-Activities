@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.fisco.app.mapper.CertificateMapper">
+    <insert id="addCertificate" parameterType="Certificate">
+        insert into certificate(cert_id, cert_name, agency_id, validity) values (#{certId}, #{certName},#{agencyId},#{validity});
+    </insert>
+    <select id="querySimpleCertList" parameterType="String" resultType="com.fisco.app.dto.CertSimpleDTO">
+        select own.cert_id,cert_name,content from own,certificate where user_id = #{user_id} and own.cert_id=certificate.cert_id;
+    </select>
+    <select id="certSpecific" parameterType="String" resultType="com.fisco.app.dto.CertSpecificDTO">
+        select own.cert_id,cert_name,content,timestamp,validity,name,agency_id from certificate,own,user where own.user_id = #{user_id} and own.cert_id = #{cert_id} and certificate.agency_id = user.id and own.cert_id=certificate.cert_id;
+    </select>
+</mapper>

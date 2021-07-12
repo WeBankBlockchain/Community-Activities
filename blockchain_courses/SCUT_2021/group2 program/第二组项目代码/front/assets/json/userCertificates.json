@@ -1,0 +1,18 @@
+{
+    "success": true,
+    "statuscode": 200,
+    "message": "成功",
+    "data":{
+        "userName":"BlockChain",
+        "certArr":[{
+        "cert_id": "a100001",
+        "certName": "IBM认证",
+        "content": "IBM⼈⼯ 智能课程"
+        },{
+            "cert_id": "a100002",
+            "certName": "IBM认证",
+            "content": "IBM⼈⼯ 智能课程"
+        }]
+    }
+}
+

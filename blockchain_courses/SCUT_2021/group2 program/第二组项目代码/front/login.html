@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Login - Brand</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
+</head>
+
+<body class="bg-gradient-primary">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-9 col-lg-12 col-xl-10">
+                <div class="card shadow-lg o-hidden border-0 my-5">
+                    <div class="card-body p-0">
+                        <div class="row">
+                            <div class="col-lg-6 d-none d-lg-flex">
+                                <div class="flex-grow-1 bg-login-image"
+                                    style="background: url(&quot;assets/img/dogs/login02.jpg&quot;) round;"></div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="p-5">
+                                    <div class="text-center">
+                                        <h1 style="font-size: 30px;color: rgb(41,51,122);">学习凭证网络</h1>
+                                        <h4 class="text-dark mb-4">Welcome Back!</h4>
+                                    </div>
+                                    <form class="user">
+                                        <div class="form-group"><input class="form-control form-control-user"
+                                                id="inputUserId" placeholder="Enter your userId"></div>
+                                        <div class="form-group"><input class="form-control form-control-user"
+                                                type="password" id="inputUserPassword" placeholder="Password"></div>
+                                        <div class="form-group">
+                                            <div id="message" class="custom-control custom-checkbox small"
+                                                style="color:red"></div>
+                                        </div><button id="submit" type="button"
+                                            class="btn btn-primary btn-block text-white btn-user">Login</button>
+
+                                        <hr>
+                                        <hr>
+                                    </form>
+                                    <div class="text-center"></div>
+                                    <div class="text-center"><a class="small" href="register.html">Create an
+                                            Account!</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/global.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            console.log("asa");
+
+            $('#submit').on('click', function () {
+                var userId = $('#inputUserId').val();
+                var userPassword = $('#inputUserPassword').val();
+
+                console.log("userId类型:" + typeof (userId));
+                console.log("userPassword:" + typeof (userPassword));
+
+                //如果有其中一个输入为空，弹出提示框
+                if (userId == "" || userPassword == "") {
+                    $("#message").html("两个框的内容均需填写");
+                    return;
+                }
+
+                //
+
+                $.ajax({
+                    url: 'http://' + globalStr.urlStr + '/login',
+                    contentType: 'application/json',
+                    type: 'POST',
+                    timeout: 5000,
+                    dataType: 'JSON',
+                    //上传的数据
+                    data: JSON.stringify({
+                        "userId": userId,
+                        "pwd": userPassword
+                    }),
+                    success: function (res) {
+                        console.log(res);
+                        if (res.message == "成功") {
+                            if (res.data.role == 1) {
+                                //给下一个页面传递参数
+                                location.href = "./normal/normalHome.html?" + "userId=" +
+                                    userId + "&userName=" + res.data.name;
+                            }
+                            if (res.data.role == 2) {
+                                //给下一个页面传递参数
+                                location.href = "./enterprice/enterHome.html?" + "userId=" +
+                                    userId + "&userName=" + res.data.name;
+                            }
+                            if (res.data.role == 0) {
+                                //给下一个页面传递参数
+                                location.href = "./manager/man_inf.html?" + "userId=" +
+                                    userId;
+                            }
+                            if (res.data.role == 3) {
+                                //给下一个页面传递参数
+                                location.href = "./cer/cer_inf.html?" + "userId=" +
+                                    userId;
+                            }
+                            if (res.data.role == 4) {
+                                //给下一个页面传递参数
+                                location.href = "./cer_enterprise/cer_inf.html?" +
+                                    "userId=" +
+                                    userId;
+                            }
+                        }
+
+                    },
+                    Error: function (xhr, type, errorThrown) {
+                        console.log(JSON.stringify(xhr));
+                        console.log(type);
+                        console.log(errorThrown);
+                    },
+                    complete: function (xhr, type, errorThrown) {
+                        console.log(JSON.stringify(xhr));
+                        console.log(type);
+                        console.log(errorThrown);
+                    }
+                });
+            })
+
+        });
+        //在这里面写你的js代码
+    </script>
+
+
+
+</body>
+
+</html>
