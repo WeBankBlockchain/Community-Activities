@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Profile - Brand</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+
+    <script src="../assets/js/jquery.js"></script>
+    <script src="../assets/js/global.js"></script>
+    <script>
+        window.onload = function () {
+            var oBtn = document.getElementById("btn");
+            var aInputs = document.getElementsByTagName("input");
+            oBtn.onclick = function () {
+                $.ajax({
+                    contentType: 'application/json',
+                    dataType: "json",
+                    type: "POST",
+                    url: 'http://' + globalStr.urlStr + '/Apply/Certificate',
+
+                    data: JSON.stringify({
+                        "certName": aInputs[0].value,
+                        "agencyId": aInputs[2].value,
+                        "validity": Number(aInputs[1].value)
+                    }),
+                    success: function (result) {
+                        var obj = result;
+                        alert(obj.message);
+                    },
+                    error: function (msg) {
+                        alert(msg);
+                    },
+
+
+                })
+            }
+        }
+    </script>
+
+</head>
+
+<body id="page-top">
+    <div id="wrapper">
+        <nav class="navbar navbar-dark align-items-start sidebar sidebar-dark accordion bg-gradient-primary p-0">
+            <div class="container-fluid d-flex flex-column p-0">
+                <div class="container">
+                    <h1
+                        style="color: rgb(255,255,255);font-size: 18px;padding-left: 9px;padding-right: 0px;padding-top: 22px;text-align: center;">
+                        学习凭证网络</h1>
+                </div>
+                <a class="navbar-brand d-flex justify-content-center align-items-center sidebar-brand m-0" href="#">
+                    <div class="sidebar-brand-icon rotate-n-15"><i class="fas fa-laugh-wink"></i></div>
+                    <div class="sidebar-brand-text mx-3"><span>证书机构</span></div>
+                </a>
+                <hr class="sidebar-divider my-0">
+                <ul class="nav navbar-nav text-light" id="accordionSidebar">
+                    <li class="nav-item"><a class="nav-link" href="cer_inf.html"><i
+                                class="far fa-edit"></i><span>修改信息</span></a></li>
+                    <li class="nav-item"><a class="nav-link" href="cer_index.html"><i
+                                class="fas fa-clipboard-list"></i><span>证书列表</span></a></li>
+                    <li class="nav-item"><a class="nav-link" href="cer_apply.html"><i
+                                class="fas fa-user"></i><span>申请颁发证书</span></a></li>
+                    <li class="nav-item"><a class="nav-link" href="cer_issue.html"><i
+                                class="fas fa-table"></i><span>颁发证书</span></a></li>
+                    <li class="nav-item"><a class="nav-link" href="../login.html"><i
+                                class="far fa-times-circle"></i><span>退出系统</span></a></li>
+                </ul>
+                <div class="text-center d-none d-md-inline"></div>
+            </div>
+        </nav>
+        <div class="d-flex flex-column" id="content-wrapper">
+            <div id="content">
+                <div class="container-fluid" style="margin-top: 40px;">
+                    <h3 class="text-dark mb-4">申请颁发证书</h3>
+                    <div class="row mb-3">
+                        <div class="col-lg-8">
+                            <div class="row mb-3 d-none">
+                                <div class="col">
+                                    <div class="card text-white bg-primary shadow">
+                                        <div class="card-body">
+                                            <div class="row mb-2">
+                                                <div class="col">
+                                                    <p class="m-0">Peformance</p>
+                                                    <p class="m-0"><strong>65.2%</strong></p>
+                                                </div>
+                                                <div class="col-auto"><i class="fas fa-rocket fa-2x"></i></div>
+                                            </div>
+                                            <p class="text-white-50 small m-0"><i class="fas fa-arrow-up"></i>&nbsp;5%
+                                                since last month</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-white bg-success shadow">
+                                        <div class="card-body">
+                                            <div class="row mb-2">
+                                                <div class="col">
+                                                    <p class="m-0">Peformance</p>
+                                                    <p class="m-0"><strong>65.2%</strong></p>
+                                                </div>
+                                                <div class="col-auto"><i class="fas fa-rocket fa-2x"></i></div>
+                                            </div>
+                                            <p class="text-white-50 small m-0"><i class="fas fa-arrow-up"></i>&nbsp;5%
+                                                since last month</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <div class="card shadow mb-3">
+                                        <div class="card-header py-3"></div>
+                                        <div class="card-body">
+                                            <form>
+                                                <div class="form-row">
+                                                    <div class="col">
+                                                        <div class="form-group"><label
+                                                                for="username"><strong>证书名称</strong><br></label></div>
+                                                        <input class="form-control" type="text">
+                                                    </div>
+                                                    <div class="col">
+                                                        <div class="form-group"><label
+                                                                for="email"><strong>证书有效期</strong><br></label></div>
+                                                        <input class="form-control" type="text">
+                                                    </div>
+                                                </div>
+                                                <div class="form-row">
+                                                    <div class="col">
+                                                        <div class="form-group"><label
+                                                                for="first_name"><strong>机构ID</strong><br></label></div>
+                                                        <input class="form-control" type="text">
+                                                    </div>
+                                                </div>
+                                                <div class="form-group"><button class="btn btn-primary btn-sm"
+                                                        style="margin-top: 20px;" type="button" id="btn">提交申请</button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer class="bg-white sticky-footer">
+                <div class="container my-auto">
+                    <div class="text-center my-auto copyright"></div>
+                </div>
+            </footer>
+        </div><a class="border rounded d-inline scroll-to-top" href="#page-top"><i class="fas fa-angle-up"></i></a>
+    </div>
+
+</body>
+
+</html>

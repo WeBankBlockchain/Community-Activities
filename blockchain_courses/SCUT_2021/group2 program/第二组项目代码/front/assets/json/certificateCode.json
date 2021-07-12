@@ -1,0 +1,10 @@
+{
+    "success":true,
+    "statuscode":200,
+    "message":"成功",
+    "data":
+    {
+    "certificateCode":"a100001100001"
+    }
+    
+}

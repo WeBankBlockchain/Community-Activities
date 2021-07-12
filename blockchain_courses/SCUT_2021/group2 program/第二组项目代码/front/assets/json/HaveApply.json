@@ -1,0 +1,20 @@
+{
+    "success": true,
+    "statusCode": 200,
+    "message": "成功",
+    "data": [
+        {
+        "id": 10000,
+        "applyRole": "企业",
+        "result": "未审核",
+        "uscc": "12345686CH"
+        },
+        {
+        "id": 10001,
+        "applyRole": "机构",
+        "result": "未通过",
+        "uscc": "12345686CH"
+        }
+    ]
+}
+    
