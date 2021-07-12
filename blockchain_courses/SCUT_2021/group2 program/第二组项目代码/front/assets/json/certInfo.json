@@ -1,0 +1,14 @@
+{
+    "success":true,
+    "statuscode":200,
+    "message":"成功",
+    "data":{
+        "cert_id":"a100001",
+        "certName":"IBM认证",
+        "content":"IBM人工智能课程",
+        "timestamp":"2021-7-1",
+        "validity":"2",
+        "agencyName":"腾讯",
+        "agency_id":"100004"
+    }
+}

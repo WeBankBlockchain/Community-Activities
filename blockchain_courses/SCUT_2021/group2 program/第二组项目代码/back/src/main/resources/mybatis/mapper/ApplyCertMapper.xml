@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.fisco.app.mapper.ApplyCertMapper">
+    <insert id="applyCertificate" parameterType="ApplyCert">
+        insert into apply_cert(cert_name, agency_id, validity, result) values (#{certName},#{agencyId},#{validity},#{result});
+    </insert>
+
+    <update id="updateResult" parameterType="com.fisco.app.dto.AddCertDTO">
+        update apply_cert set result = #{result} where (cert_name, agency_id) = (#{certName}, #{agencyId});
+    </update>
+
+    <select id="findApplyCertValidity" resultType="Integer">
+        select validity from apply_cert
+        where cert_name= #{certName} and agency_id = #{agencyId};
+    </select>
+
+    <select id="queryMineList" resultType="ApplyLeftJoinCert">
+        SELECT b.cert_id, a.cert_name, a.validity, a.result
+        FROM apply_cert as a
+        LEFT JOIN certificate as b
+        ON (a.cert_name = b.cert_name) and (a.agency_id = b.agency_id) where a.agency_id = #{id} order by a.result;
+    </select>
+
+    <select id="queryListForAdmin" resultType="ApplyCertInfo">
+        select cert_name, agency_id, name, validity, result from apply_cert,user where apply_cert.agency_id = user.id order by result;
+    </select>
+</mapper>
