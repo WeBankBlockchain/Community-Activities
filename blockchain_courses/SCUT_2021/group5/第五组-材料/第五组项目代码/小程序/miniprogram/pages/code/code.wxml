@@ -1,0 +1,8 @@
+<view class="code-container">
+    <view class="toptips" bindtap="tapHandler">二维码名片</view>
+    <view style="height:30px"></view>
+    <view class="white">
+            <canvas class='canvas' canvas-id='canvas' bindlongtap='save'></canvas>
+        <view class="tips">扫描上面的二维码图案，获取我的账号ID</view>
+    </view>
+</view>
