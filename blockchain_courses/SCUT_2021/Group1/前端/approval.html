@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>物流溯源平台</title>
+    <link rel="stylesheet" type="text/css" href="lib/css//bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="lib/js/jquery.min.js"></script>
+    <script src="lib/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/common.js"></script>
+    <script type="module" src="js/pre_approval.js"></script>
+    <script type="text/javascript">
+        token=get_cookie("token");
+        user_type=get_cookie("user_type");
+        if (token === "") {
+            alert("请先登录");
+            window.location.replace("index.html");
+        } else if (user_type !== "0") {
+            alert("仅卖家可操作");
+            window.location.replace("index.html");
+        }
+    </script>
+</head>
+<body class="my-login-page">
+    <ul>
+        <li><a href="index.html">用户登陆</a></li>
+        <li><a href="register.html">用户注册</a></li>
+        <li><a href="new_id.html">新建商品</a></li>
+        <li><a href="create.html">新建物流</a></li>
+        <li><a style="background-color: #111" href="approval.html">授权港口</a></li>
+        <li><a href="add_node.html">添加节点</a></li>
+        <li><a href="query.html">查询物流</a></li>
+    </ul>
+    <section class="h-100">
+        <div class="container h-100">
+            <div class="row justify-content-md-center h-100">
+                <div class="card-wrapper">
+                    <div class="brand">
+                        <img src="img/logo.png">
+                    </div>
+                    <div class="card fat">
+                        <div class="card-body">
+                            <h3 class="card-title">授权港口</h4>
+                            <form id="form" method="POST" class="my-login-validation" novalidate="">
+                                <div class="form-group">
+                                    <label for="user">用户名</label>
+                                    <input id="user" class="form-control" name="from" readonly>
+                                </div>  
+
+                                <div class="form-group">
+                                    <label for="port">授权港口</label>
+                                    <select style="width:100%;padding:6px;border:2px solid;border-color:#cccccc;border-radius:3px;" id="port" name="to">
+                                    </select>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="product_id">商品ID</label>
+                                    <input id="product_id" class="form-control" name="id" required data-eye>
+                                </div>
+
+                                <br/>
+                                <div class="form-group m-0">
+                                    <button type="submit" class="btn btn-primary btn-block">
+                                        授权港口
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="footer">
+                        跨境产品关键运输步骤追溯平台 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script type="module" src="js/approval.js"></script>
+</body>
+</html>

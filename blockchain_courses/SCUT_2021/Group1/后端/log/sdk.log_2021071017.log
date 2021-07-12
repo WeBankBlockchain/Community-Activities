@@ -1,0 +1,885 @@
+[INFO] [2021-07-10 17:15:50] ChannelHandler.userEventTriggered(105) |  ssl close completion event, host: 127.0.0.1, port: 20200, ctx: 1090179908 
+[INFO] [2021-07-10 17:15:50] ChannelHandler.userEventTriggered(105) |  ssl close completion event, host: 127.0.0.1, port: 20201, ctx: 732462222 
+[DEBUG] [2021-07-10 17:15:50] ChannelHandler.channelInactive(128) |  channelInactive, disconnect 127.0.0.1:20201 ,false
+[DEBUG] [2021-07-10 17:15:50] ChannelHandler.channelInactive(128) |  channelInactive, disconnect 127.0.0.1:20200 ,false
+[DEBUG] [2021-07-10 17:15:50] ConnectionManager.removeConnectionContext(438) |  result: true, host: 127.0.0.1, port: 20201, ctx: 732462222
+[DEBUG] [2021-07-10 17:15:50] ConnectionManager.removeConnectionContext(438) |  result: true, host: 127.0.0.1, port: 20200, ctx: 1090179908
+[DEBUG] [2021-07-10 17:15:50] ChannelMsgHandler.onDisconnect(163) | onDisconnect in ChannelMsgHandler called, host : 127.0.0.1:20201
+[DEBUG] [2021-07-10 17:15:50] ChannelMsgHandler.onDisconnect(163) | onDisconnect in ChannelMsgHandler called, host : 127.0.0.1:20200
+[DEBUG] [2021-07-10 17:15:50] BlockNumberNotifyHandler.onDisconnect(97) | onDisconnect, endpoint: 127.0.0.1:20201
+[DEBUG] [2021-07-10 17:15:50] BlockNumberNotifyHandler.onDisconnect(97) | onDisconnect, endpoint: 127.0.0.1:20200
+[INFO] [2021-07-10 17:15:50] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:15:50] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:15:50] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:15:50] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:15:50] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:15:50] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:15:50] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:15:50] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:15:50] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:15:50] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:15:50] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:15:50] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:15:50] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:15:50] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:15:50] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:15:50] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:15:50] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:15:50] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:15:50] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:15:50] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:15:50] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:15:50] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:15:50] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:15:50] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:15:50] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:15:50] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:15:50] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:15:50] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:15:50] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:15:50] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:15:50] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:15:50] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:15:50] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:15:50] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:15:50] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:15:50] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:15:50] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:15:50] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:15:50] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:15:50] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:15:50] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:15:50] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:15:50] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:15:50] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:15:50] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:15:50] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[DEBUG] [2021-07-10 17:15:50] GroupServiceImpl.removeNode(67) | g:1, removeNode=127.0.0.1:20201, blockNumberInfoSize=0, latestBlockNumber:0
+[DEBUG] [2021-07-10 17:15:50] GroupServiceImpl.removeNode(67) | g:1, removeNode=127.0.0.1:20200, blockNumberInfoSize=0, latestBlockNumber:0
+[INFO] [2021-07-10 17:15:50] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:15:50] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:15:50] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:15:50] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:15:50] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:15:50] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:15:50] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:15:50] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:15:50] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:15:50] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[DEBUG] [2021-07-10 17:15:50] TopicManager.updateBlockNotify(158) | update block notify, peer: 127.0.0.1:20201, groupInfo: [1]
+[DEBUG] [2021-07-10 17:15:50] TopicManager.updateBlockNotify(158) | update block notify, peer: 127.0.0.1:20200, groupInfo: [1]
+[DEBUG] [2021-07-10 17:15:50] TopicManager.updateBlockNotify(163) | add block notify, peer: 127.0.0.1:20201, topic: _block_notify_1
+[INFO] [2021-07-10 17:15:50] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:15:50] AmopImp.sendSubscribe(216) | update subscribe inform 2 peers
+[INFO] [2021-07-10 17:15:50] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:15:50] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:15:50] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:15:50] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:15:50] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[DEBUG] [2021-07-10 17:15:50] TopicManager.updateBlockNotify(163) | add block notify, peer: 127.0.0.1:20200, topic: _block_notify_1
+[INFO] [2021-07-10 17:15:50] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:15:50] AmopImp.sendSubscribe(216) | update subscribe inform 1 peers
+[INFO] [2021-07-10 17:15:50] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:15:50] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:15:50] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:15:50] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:15:50] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:15:50] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:15:50] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:15:50] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:15:50] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:15:50] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:15:50] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:15:50] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:15:50] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:15:50] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:15:50] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:15:50] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:15:50] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:15:50] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:15:50] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:15:50] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:15:50] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:15:50] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:15:50] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:15:50] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:15:50] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:15:50] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:15:50] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:15:50] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:15:50] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:15:50] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:15:50] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:15:50] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:15:50] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:15:50] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:15:50] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:15:50] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:15:50] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[DEBUG] [2021-07-10 17:15:50] AmopImp.updateSubscribeToPeer(238) | update topics to node, node:127.0.0.1:20200, topics:["_block_notify_1"]
+[DEBUG] [2021-07-10 17:15:50] AmopImp.updateSubscribeToPeer(238) | update topics to node, node:127.0.0.1:20200, topics:["_block_notify_1"]
+[WARN] [2021-07-10 17:15:50] ChannelImp.asyncSendToPeer(310) | send message with seq cfb25035edbd4abab968f11fa4a80a78 to 127.0.0.1:20201 failed 
+[DEBUG] [2021-07-10 17:15:50] AmopImp.updateSubscribeToPeer(238) | update topics to node, node:127.0.0.1:20201, topics:["_block_notify_1"]
+[INFO] [2021-07-10 17:16:07] ConnectionManager.reconnect(197) |  reconnect to 127.0.0.1:20200 success
+[DEBUG] [2021-07-10 17:16:07] SslHandler.setHandshakeSuccess(1746) | [id: 0x4eca0372, L:/127.0.0.1:60642 - R:/127.0.0.1:20200] HANDSHAKEN: protocol:TLSv1.2 cipher suite:TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384
+[INFO] [2021-07-10 17:16:07] ChannelHandler.userEventTriggered(73) |  handshake success, host: 127.0.0.1, port: 20200, ctx: 1476997444
+[DEBUG] [2021-07-10 17:16:07] ConnectionManager.addConnectionContext(427) | addConnectionContext, endpoint: 127.0.0.1:20200, ctx:ChannelHandlerContext(ChannelHandler#0, [id: 0x4eca0372, L:/127.0.0.1:60642 - R:/127.0.0.1:20200])
+[DEBUG] [2021-07-10 17:16:07] ChannelMsgHandler.onConnect(112) | onConnect in ChannelMsgHandler called, host : 127.0.0.1:20200
+[DEBUG] [2021-07-10 17:16:07] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 5b3d57b1118a4654b3987ad598e48988, msgType : 18
+[INFO] [2021-07-10 17:16:07] ChannelMsgHandler$1.onResponse(225) |  node: ClientVersion{version='2.7.2', supportedVersion='2.7.2', chainId='1', buildTime='20210201 10:15:37', buildType='Darwin/appleclang/RelWithDebInfo', gitBranch='HEAD', gitCommitHash='4c8a5bbe44c19db8a002017ff9dbb16d3d28e9da'}, content: {"id":6,"jsonrpc":"2.0","result":{"Build Time":"20210201 10:15:37","Build Type":"Darwin/appleclang/RelWithDebInfo","Chain Id":"1","FISCO-BCOS Version":"2.7.2","Git Branch":"HEAD","Git Commit Hash":"4c8a5bbe44c19db8a002017ff9dbb16d3d28e9da","Supported Version":"2.7.2"}}
+
+[INFO] [2021-07-10 17:16:07] ChannelMsgHandler$1.onResponse(233) |  support channel handshake node
+[DEBUG] [2021-07-10 17:16:07] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : f5fa119548e94a1c9bac27e509c1784e, msgType : 20
+[INFO] [2021-07-10 17:16:07] ChannelMsgHandler$2.onResponse(309) |  channel protocol handshake success, set socket channel protocol, host: 127.0.0.1:20200, channel protocol: ChannelProtocol [protocol=3, nodeVersion=2.7.2, EnumProtocol=VERSION_3]
+[INFO] [2021-07-10 17:16:07] GetNodeVersionHandler.onConnect(38) | GetNodeVersionHandler: onConnect, endpoint: 127.0.0.1:20200
+[INFO] [2021-07-10 17:16:07] AmopMsgHandler.onConnect(76) | Node connected, update topics to node. node:127.0.0.1:20200
+[DEBUG] [2021-07-10 17:16:07] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 8a59bc393dfe4f0da64cad85eda63fa9, msgType : 18
+[DEBUG] [2021-07-10 17:16:07] GroupServiceImpl.<init>(45) | insert group: 1 for peer 127.0.0.1:20200
+[DEBUG] [2021-07-10 17:16:07] TopicManager.updateBlockNotify(158) | update block notify, peer: 127.0.0.1:20200, groupInfo: [1]
+[DEBUG] [2021-07-10 17:16:07] TopicManager.updateBlockNotify(163) | add block notify, peer: 127.0.0.1:20200, topic: _block_notify_1
+[INFO] [2021-07-10 17:16:07] AmopImp.sendSubscribe(216) | update subscribe inform 1 peers
+[DEBUG] [2021-07-10 17:16:07] AmopImp.updateSubscribeToPeer(238) | update topics to node, node:127.0.0.1:20200, topics:["_block_notify_1"]
+[DEBUG] [2021-07-10 17:16:07] GroupManagerServiceImpl.getAndUpdateBlockNumberForAllPeers(528) | g: 1, getAndUpdateBlockNumberForAllPeers, group availablePeers:[127.0.0.1:20200]
+[DEBUG] [2021-07-10 17:16:07] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 3aa7c22e9c304fde8c19c16c06ce7b94, msgType : 18
+[DEBUG] [2021-07-10 17:16:07] GroupServiceImpl.updatePeersBlockNumberInfo(104) | updatePeersBlockNumberInfo for 127.0.0.1:20200, updated blockNumber: 99, groupId: 1
+[DEBUG] [2021-07-10 17:16:07] GroupServiceImpl.updateLatestBlockNumber(127) | g:1, updateLatestBlockNumber, latestBlockNumber: 99, nodeWithLatestBlockNumber:[127.0.0.1:20200]
+[DEBUG] [2021-07-10 17:16:07] GroupManagerServiceImpl.fetchAndUpdateBlockNumberInfo(542) | fetch and update the blockNumber information, groupId: 1, peer:127.0.0.1:20200, blockNumber: 99
+[DEBUG] [2021-07-10 17:16:07] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 58e45991e2f9414da8c944c7abac8228, msgType : 18
+[INFO] [2021-07-10 17:16:07] ConnectionManager.reconnect(197) |  reconnect to 127.0.0.1:20201 success
+[DEBUG] [2021-07-10 17:16:07] SslHandler.setHandshakeSuccess(1746) | [id: 0x8537b2ad, L:/127.0.0.1:60644 - R:/127.0.0.1:20201] HANDSHAKEN: protocol:TLSv1.2 cipher suite:TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384
+[INFO] [2021-07-10 17:16:07] ChannelHandler.userEventTriggered(73) |  handshake success, host: 127.0.0.1, port: 20201, ctx: 219104139
+[DEBUG] [2021-07-10 17:16:07] ConnectionManager.addConnectionContext(427) | addConnectionContext, endpoint: 127.0.0.1:20201, ctx:ChannelHandlerContext(ChannelHandler#0, [id: 0x8537b2ad, L:/127.0.0.1:60644 - R:/127.0.0.1:20201])
+[DEBUG] [2021-07-10 17:16:07] ChannelMsgHandler.onConnect(112) | onConnect in ChannelMsgHandler called, host : 127.0.0.1:20201
+[DEBUG] [2021-07-10 17:16:07] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : c0afa4fdaa4340e487106bf13e90876c, msgType : 18
+[INFO] [2021-07-10 17:16:07] ChannelMsgHandler$1.onResponse(225) |  node: ClientVersion{version='2.7.2', supportedVersion='2.7.2', chainId='1', buildTime='20210201 10:15:37', buildType='Darwin/appleclang/RelWithDebInfo', gitBranch='HEAD', gitCommitHash='4c8a5bbe44c19db8a002017ff9dbb16d3d28e9da'}, content: {"id":7,"jsonrpc":"2.0","result":{"Build Time":"20210201 10:15:37","Build Type":"Darwin/appleclang/RelWithDebInfo","Chain Id":"1","FISCO-BCOS Version":"2.7.2","Git Branch":"HEAD","Git Commit Hash":"4c8a5bbe44c19db8a002017ff9dbb16d3d28e9da","Supported Version":"2.7.2"}}
+
+[INFO] [2021-07-10 17:16:07] ChannelMsgHandler$1.onResponse(233) |  support channel handshake node
+[DEBUG] [2021-07-10 17:16:07] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 01685a6c96494aa5b8f517361a9f1e7c, msgType : 20
+[INFO] [2021-07-10 17:16:07] ChannelMsgHandler$2.onResponse(309) |  channel protocol handshake success, set socket channel protocol, host: 127.0.0.1:20201, channel protocol: ChannelProtocol [protocol=3, nodeVersion=2.7.2, EnumProtocol=VERSION_3]
+[INFO] [2021-07-10 17:16:07] GetNodeVersionHandler.onConnect(38) | GetNodeVersionHandler: onConnect, endpoint: 127.0.0.1:20201
+[INFO] [2021-07-10 17:16:07] AmopMsgHandler.onConnect(76) | Node connected, update topics to node. node:127.0.0.1:20201
+[DEBUG] [2021-07-10 17:16:07] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 4c33ae3c7c2f4a78846134987e589f3d, msgType : 18
+[DEBUG] [2021-07-10 17:16:07] GroupServiceImpl.insertNode(84) | g:1, insertNode=127.0.0.1:20201, nodeSize=2, blockNumberInfoSize=1
+[DEBUG] [2021-07-10 17:16:07] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : e575675ed4044f69aa9b7b1412ab03f8, msgType : 18
+[DEBUG] [2021-07-10 17:16:07] GroupServiceImpl.updatePeersBlockNumberInfo(104) | updatePeersBlockNumberInfo for 127.0.0.1:20201, updated blockNumber: 99, groupId: 1
+[DEBUG] [2021-07-10 17:16:07] GroupServiceImpl.updateLatestBlockNumber(127) | g:1, updateLatestBlockNumber, latestBlockNumber: 99, nodeWithLatestBlockNumber:[127.0.0.1:20200, 127.0.0.1:20201]
+[DEBUG] [2021-07-10 17:16:07] GroupManagerServiceImpl.fetchAndUpdateBlockNumberInfo(542) | fetch and update the blockNumber information, groupId: 1, peer:127.0.0.1:20201, blockNumber: 99
+[DEBUG] [2021-07-10 17:16:07] TopicManager.updateBlockNotify(158) | update block notify, peer: 127.0.0.1:20201, groupInfo: [1]
+[DEBUG] [2021-07-10 17:16:07] TopicManager.updateBlockNotify(163) | add block notify, peer: 127.0.0.1:20201, topic: _block_notify_1
+[INFO] [2021-07-10 17:16:07] AmopImp.sendSubscribe(216) | update subscribe inform 2 peers
+[DEBUG] [2021-07-10 17:16:07] AmopImp.updateSubscribeToPeer(238) | update topics to node, node:127.0.0.1:20200, topics:["_block_notify_1"]
+[DEBUG] [2021-07-10 17:16:07] AmopImp.updateSubscribeToPeer(238) | update topics to node, node:127.0.0.1:20201, topics:["_block_notify_1"]
+[DEBUG] [2021-07-10 17:16:07] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 05ddcc8208cb4c74811eac05f5318e32, msgType : 18
+[DEBUG] [2021-07-10 17:16:08] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 210d65f9bd224af09ce9bde2fbce4787, msgType : 19
+[DEBUG] [2021-07-10 17:16:08] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 2f179e9404274e0fb731018ace5a0c32, msgType : 19
+[DEBUG] [2021-07-10 17:16:10] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 6d15c12658a8497a932c96b57e4de8c5, msgType : 19
+[DEBUG] [2021-07-10 17:16:10] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 9e9c126e5e8f490ebea3c34051d1afbf, msgType : 19
+[DEBUG] [2021-07-10 17:16:12] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 548e8bbc3ef94395a43c19e2a1a482a4, msgType : 19
+[DEBUG] [2021-07-10 17:16:12] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : cbc6f3d32c4b4887a8f47c53708ab174, msgType : 19
+[DEBUG] [2021-07-10 17:16:14] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : dffc4a77020a44c2a9c82f4a235c8853, msgType : 19
+[DEBUG] [2021-07-10 17:16:14] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 07d0b1b58a884a08b4bdd7c34af04d27, msgType : 19
+[DEBUG] [2021-07-10 17:16:16] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 5be8731e5b4c4e808adcb1950243c099, msgType : 19
+[DEBUG] [2021-07-10 17:16:16] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 27605f800d1d4ed7942f26c50849374b, msgType : 19
+[DEBUG] [2021-07-10 17:16:18] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 1f69f2fd67444840982eb752c8da3056, msgType : 19
+[DEBUG] [2021-07-10 17:16:18] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : e56452180f734025ad0edbedbfa8e471, msgType : 19
+[DEBUG] [2021-07-10 17:16:20] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 3f790dcf09bd4f98ae3f56f1e421a962, msgType : 19
+[DEBUG] [2021-07-10 17:16:20] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 3280a3fea6154d8ba3f3d9001b682760, msgType : 19
+[DEBUG] [2021-07-10 17:16:22] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : dc250ff3c0084926973de5cc91496569, msgType : 19
+[DEBUG] [2021-07-10 17:16:22] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : c5c6831b41764a358243b98cea420b0a, msgType : 19
+[DEBUG] [2021-07-10 17:16:24] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : b4d69aa64ec947ce84531a2692ab747e, msgType : 19
+[DEBUG] [2021-07-10 17:16:24] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 9fa721e305f84acb820228c8099ef768, msgType : 19
+[DEBUG] [2021-07-10 17:16:26] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : bd9266d5fca7425a9154093ec08cbcc5, msgType : 19
+[DEBUG] [2021-07-10 17:16:26] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 5a98bb9f062647588a7d8de19bf6630e, msgType : 19
+[DEBUG] [2021-07-10 17:16:28] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 85e8555f242a476ead0efa26f57f89a0, msgType : 19
+[DEBUG] [2021-07-10 17:16:28] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 067ce40b0c0143a59c09c39e48f9b7b1, msgType : 19
+[DEBUG] [2021-07-10 17:16:30] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : da84c70187cd430597ee67e2fa7fe176, msgType : 19
+[DEBUG] [2021-07-10 17:16:30] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 3e67a8a526d944e4827aa3d675c121d1, msgType : 19
+[DEBUG] [2021-07-10 17:16:32] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 7c24f127d2ba49b4a283cbe0d67cb89a, msgType : 19
+[DEBUG] [2021-07-10 17:16:32] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : e28b994a9f5f4691a5b08ba63663983f, msgType : 19
+[DEBUG] [2021-07-10 17:16:34] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 1d18b5a4b3e74b0ab73df654a0ce9632, msgType : 19
+[DEBUG] [2021-07-10 17:16:34] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 27a92ec11bfa4eb29d200098b3163158, msgType : 19
+[DEBUG] [2021-07-10 17:16:36] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 900fdfb39d364c649b8933a0975e4912, msgType : 19
+[DEBUG] [2021-07-10 17:16:36] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 6bb92181b0af4fbca5609039633a22dc, msgType : 19
+[DEBUG] [2021-07-10 17:16:38] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : e0f5e7a04e8741c586901001fddbd6c0, msgType : 19
+[DEBUG] [2021-07-10 17:16:38] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 419a2e4c9f9f4e5f9b5df19770a2d606, msgType : 19
+[DEBUG] [2021-07-10 17:16:40] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : b9cd219dd34b4cb395e5f6179bad9564, msgType : 19
+[DEBUG] [2021-07-10 17:16:40] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : a9eb7b3c8f964444b97d2ff8fc75d55a, msgType : 19
+[DEBUG] [2021-07-10 17:16:42] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 0b2a6f6f0ef24f9f9cfa4c12ad8070b1, msgType : 19
+[DEBUG] [2021-07-10 17:16:42] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : bca36355bf0a42f4b9593fc361ec4196, msgType : 19
+[DEBUG] [2021-07-10 17:16:44] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : c814a69e4d0c4d538e1156b89742dfa1, msgType : 19
+[DEBUG] [2021-07-10 17:16:44] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : ed900233619d4939ae1df3e4045cb06e, msgType : 19
+[DEBUG] [2021-07-10 17:16:46] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 36ec349aa3aa449da0c175c65bf9d2c9, msgType : 19
+[DEBUG] [2021-07-10 17:16:46] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : e45b1413992043f8aef360729102bb3d, msgType : 19
+[DEBUG] [2021-07-10 17:16:48] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : a0dfc162f8dc45bbbaebdba45897d8ed, msgType : 19
+[DEBUG] [2021-07-10 17:16:48] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : ca499ffff20240a790d2ed78ac2c83bf, msgType : 19
+[DEBUG] [2021-07-10 17:16:50] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : dfa50d15ad5247f391989f0d6b023108, msgType : 19
+[DEBUG] [2021-07-10 17:16:50] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : b527fdc269474bb7aa3dc193d416cf8b, msgType : 19
+[DEBUG] [2021-07-10 17:16:52] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : b52d7d38d01245579bf359bade2a9c38, msgType : 19
+[DEBUG] [2021-07-10 17:16:52] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 295777ca0c5648ae8b15abe412a073e5, msgType : 19
+[DEBUG] [2021-07-10 17:16:54] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 16764ee7515a4a889667c0372d0f0460, msgType : 19
+[DEBUG] [2021-07-10 17:16:54] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : f94b8d452e42495aa5d57bab7f5e0114, msgType : 19
+[DEBUG] [2021-07-10 17:16:56] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 200ce9d0067c47ffa408a2fe9e43a7c3, msgType : 19
+[DEBUG] [2021-07-10 17:16:56] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 47135bc3195b45b2ad0033a094afe307, msgType : 19
+[DEBUG] [2021-07-10 17:16:58] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 286f782eedf04233bc4229e7751c1a05, msgType : 19
+[DEBUG] [2021-07-10 17:16:58] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : ae9b885a4e454b52b9962c27a6cbb3f1, msgType : 19
+[DEBUG] [2021-07-10 17:17:00] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 997cb96862484edebd5c4d99b34accf8, msgType : 19
+[DEBUG] [2021-07-10 17:17:00] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 38495839de3a4db5be7bf349e5f9a92d, msgType : 19
+[DEBUG] [2021-07-10 17:17:02] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 87d15f42aa6841ad9ed10327d2e508b4, msgType : 19
+[DEBUG] [2021-07-10 17:17:02] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 9f00b1f55f0242e28cc8c42086f36847, msgType : 19
+[DEBUG] [2021-07-10 17:17:04] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : d03c9dbaa7ab46c9af67a5dd2599842b, msgType : 19
+[DEBUG] [2021-07-10 17:17:04] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 2032c01a495548998be91bd3a7831db4, msgType : 19
+[DEBUG] [2021-07-10 17:17:06] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : de2272632a95486e9ba6fe560bc345c0, msgType : 19
+[DEBUG] [2021-07-10 17:17:06] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 3eb97241fe6945448b328c603262caa9, msgType : 19
+[DEBUG] [2021-07-10 17:17:06] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 2e603e9773a64b7e9b9e6bd9522f48a0, msgType : 18
+[DEBUG] [2021-07-10 17:17:06] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 29037e146a12481eb29bf58547170e57, msgType : 18
+[DEBUG] [2021-07-10 17:17:08] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : fe1809bcb16949e99be9bc6c0fb23194, msgType : 19
+[DEBUG] [2021-07-10 17:17:08] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 20b28cf6187947268a88e3aa789b7209, msgType : 19
+[DEBUG] [2021-07-10 17:17:10] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : e41a767074d940aca95e820efe89879b, msgType : 19
+[DEBUG] [2021-07-10 17:17:10] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 8237c534f7344fefb53c6a9d63b45a20, msgType : 19
+[DEBUG] [2021-07-10 17:17:12] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : a97ad144a9f945d58c22496aca1e5bb5, msgType : 19
+[DEBUG] [2021-07-10 17:17:12] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 1376a0930ef44190834e1822e6b4e0eb, msgType : 19
+[DEBUG] [2021-07-10 17:17:14] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : d56fefd6aa7c4139802a5df6b39b2a3d, msgType : 19
+[DEBUG] [2021-07-10 17:17:14] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 7e2c165b011241a2b0aff6bbee8ae523, msgType : 19
+[DEBUG] [2021-07-10 17:17:16] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 2e6e7cf4130f481785b79a0af9d2ca7f, msgType : 19
+[DEBUG] [2021-07-10 17:17:16] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 9c13e0fe8dd84264914a0f83e7ced2f0, msgType : 19
+[DEBUG] [2021-07-10 17:17:18] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : ede6872824304b0984c9597fef65bb3e, msgType : 19
+[DEBUG] [2021-07-10 17:17:18] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 765f6ca95abc4a60aaadb436efe31294, msgType : 19
+[DEBUG] [2021-07-10 17:17:20] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : b0a9ef22599f4f6abb7515f61b2f035f, msgType : 19
+[DEBUG] [2021-07-10 17:17:20] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : f81aa6b02aaa4ea9ba313ffe680ed0dc, msgType : 19
+[DEBUG] [2021-07-10 17:17:22] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 6f9cb998426d4d0ca7db8b4c185d80dc, msgType : 19
+[DEBUG] [2021-07-10 17:17:22] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 63b1f07880e344fb8dbb051b0e150992, msgType : 19
+[DEBUG] [2021-07-10 17:17:24] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 8f686e2edb9c482691fad14d9c73c0f8, msgType : 19
+[DEBUG] [2021-07-10 17:17:24] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : a71f5db749794a3fad8284506e0f9587, msgType : 19
+[DEBUG] [2021-07-10 17:17:26] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 2846003d0cf846918ad7859c74c24abe, msgType : 19
+[DEBUG] [2021-07-10 17:17:26] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 424ab42fabff4b0eb75a01e57bb2c44c, msgType : 19
+[DEBUG] [2021-07-10 17:17:28] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : bb9d024ffdff4e8da8ba875c669358e0, msgType : 19
+[DEBUG] [2021-07-10 17:17:28] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 875fa5737c484138a39169438e10de80, msgType : 19
+[DEBUG] [2021-07-10 17:17:30] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 518dcd6c0b784d6ab636b44f8d1d9eb5, msgType : 19
+[DEBUG] [2021-07-10 17:17:30] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 1f18951ae7b14644b71b0741174a0d4b, msgType : 19
+[DEBUG] [2021-07-10 17:17:32] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 87b31b69e83f4d1ea60958102d6766f2, msgType : 19
+[DEBUG] [2021-07-10 17:17:32] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : f4c6d092b70247eeb3212e322adcf408, msgType : 19
+[DEBUG] [2021-07-10 17:17:34] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 64641378f2324cb69d4e579f46a08ed1, msgType : 19
+[DEBUG] [2021-07-10 17:17:34] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 393b543f16724426bac07d2084cbc4ae, msgType : 19
+[DEBUG] [2021-07-10 17:17:36] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 075dbb3dd51f4509aa22b0eea771b12f, msgType : 19
+[DEBUG] [2021-07-10 17:17:36] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 675bba139ec2447d8c59d49c54e86651, msgType : 19
+[DEBUG] [2021-07-10 17:17:38] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : d3af78b55983449c9ee3782c7443c162, msgType : 19
+[DEBUG] [2021-07-10 17:17:38] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 6afc68e584234eccb85da1ce8d313059, msgType : 19
+[DEBUG] [2021-07-10 17:17:40] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 8265745fa3ae487ab7c14a51df5e9f41, msgType : 19
+[DEBUG] [2021-07-10 17:17:40] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 0d8cf6873cbd42dc862b0da4e6babf7a, msgType : 19
+[DEBUG] [2021-07-10 17:17:42] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : a486ae9fb3b443e3ba77d53d68908544, msgType : 19
+[DEBUG] [2021-07-10 17:17:42] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 10d7bc1dfbec4991858b3cda998c0189, msgType : 19
+[DEBUG] [2021-07-10 17:17:44] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 41eb0e0747fc4c06a45d42b78be1339c, msgType : 19
+[DEBUG] [2021-07-10 17:17:44] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 84e7130bce5c4119aa4d19ee3884f3cb, msgType : 19
+[DEBUG] [2021-07-10 17:17:46] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : d942e114bc1843fe80c87e875050331f, msgType : 19
+[DEBUG] [2021-07-10 17:17:46] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : db56a67b141b4b5ea3b57e4b86fa766e, msgType : 19
+[DEBUG] [2021-07-10 17:17:48] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 0f7f3804e3b9404d9ae36c8ba07ad0fb, msgType : 19
+[DEBUG] [2021-07-10 17:17:48] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 77fa814ca41b421387960ce4ee1698b4, msgType : 19
+[DEBUG] [2021-07-10 17:17:50] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 7d25550a012c4880957fb801a1a7d265, msgType : 19
+[DEBUG] [2021-07-10 17:17:50] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 8e6b8584846644339ec69bb6960cd5da, msgType : 19
+[DEBUG] [2021-07-10 17:17:52] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : e12a17f18c304292bf4a4f415ebfe939, msgType : 19
+[DEBUG] [2021-07-10 17:17:52] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : cc1c591760d9484d9075e94f4f2751dc, msgType : 19
+[DEBUG] [2021-07-10 17:17:54] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : c109e8c52f774322a42bcf8842039b0b, msgType : 19
+[DEBUG] [2021-07-10 17:17:54] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 32e04d2ffff3400cbed120d47ad25df4, msgType : 19
+[DEBUG] [2021-07-10 17:17:56] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : edb1d62730a3431e8db93829d45560b3, msgType : 19
+[DEBUG] [2021-07-10 17:17:56] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : ba7c849d0ee04389be744d76b8a2ae82, msgType : 19
+[DEBUG] [2021-07-10 17:17:58] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : b59b132811fc4e9295cf730140af776a, msgType : 19
+[DEBUG] [2021-07-10 17:17:58] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 4c9af96e13344f47b656a8921609afca, msgType : 19
+[DEBUG] [2021-07-10 17:18:00] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : ef300eaaefa54a6cb74729e9ed04b0c9, msgType : 19
+[DEBUG] [2021-07-10 17:18:00] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : a53f294f2cfa4f1eadf0d6b5f0f264d9, msgType : 19
+[DEBUG] [2021-07-10 17:18:02] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 2d109c2e8abd43509a9418a3bdb84be6, msgType : 19
+[DEBUG] [2021-07-10 17:18:02] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : f35493fe6f39461da592f85a90b2de70, msgType : 19
+[DEBUG] [2021-07-10 17:18:04] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 8c8bc9d4e5db4a0ca9f38f8017d78f2e, msgType : 19
+[DEBUG] [2021-07-10 17:18:04] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 0a5a431268a64c8ea97fd35ab97b400b, msgType : 19
+[DEBUG] [2021-07-10 17:18:06] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 2628dde4a3064a9c84b976a626ac791a, msgType : 19
+[DEBUG] [2021-07-10 17:18:06] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 6b4939196a9d4f43bec8fd87155dd7d8, msgType : 19
+[DEBUG] [2021-07-10 17:18:06] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : a315c14d6cd6437894aeb534dee208ce, msgType : 18
+[DEBUG] [2021-07-10 17:18:06] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 7ce4cc277711405c8ecead7405fcfb2a, msgType : 18
+[DEBUG] [2021-07-10 17:18:08] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 3c6a2ded02eb404390e9650c66b3efe7, msgType : 19
+[DEBUG] [2021-07-10 17:18:08] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 40bac98730cf446a91ab98fa2baf147a, msgType : 19
+[DEBUG] [2021-07-10 17:18:10] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 413c0ea28a904344a773137e2c3bfd17, msgType : 19
+[DEBUG] [2021-07-10 17:18:10] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 420cce4205b84c91aa27e4f8162627dc, msgType : 19
+[DEBUG] [2021-07-10 17:18:12] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : b5c25da747d14727b3e0761fc5630141, msgType : 19
+[DEBUG] [2021-07-10 17:18:12] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : d6d9e1fae2f24e0d8764807206920f8b, msgType : 19
+[DEBUG] [2021-07-10 17:18:14] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : cf0f287c896d4235bd2893631f85335d, msgType : 19
+[DEBUG] [2021-07-10 17:18:14] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 2c662f39cf764ecda765a88fa3262bcb, msgType : 19
+[DEBUG] [2021-07-10 17:18:16] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : b5cb65ef0c90454496b5085c1cc9c995, msgType : 19
+[DEBUG] [2021-07-10 17:18:16] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 86f4fa02f9364c4b875d6113dd1806bf, msgType : 19
+[DEBUG] [2021-07-10 17:18:18] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : d639919d4a304f548817114fee065b2f, msgType : 19
+[DEBUG] [2021-07-10 17:18:18] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : a8baadc5197c4d91828ce4bd8182d0e0, msgType : 19
+[DEBUG] [2021-07-10 17:18:20] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 66672f36e06947dea6207bc1195f73be, msgType : 19
+[DEBUG] [2021-07-10 17:18:20] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 8855bb6d60814d35875fa6a3e9861e76, msgType : 19
+[DEBUG] [2021-07-10 17:18:22] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 78ebfb572b494baea4ca45d112bd44c7, msgType : 19
+[DEBUG] [2021-07-10 17:18:22] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : b0f13f6c3e314465a1ec61afdf4cca0a, msgType : 19
+[DEBUG] [2021-07-10 17:18:24] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 6ea17ff061624e62ada3f5c93408c744, msgType : 19
+[DEBUG] [2021-07-10 17:18:24] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 83c26c9412c8449a9c7421f559b7229f, msgType : 19
+[DEBUG] [2021-07-10 17:18:26] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : ed425f2bf1e14bfc88462866910d6960, msgType : 19
+[DEBUG] [2021-07-10 17:18:26] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 3d1930ce3b08459488ebdd49eea7c731, msgType : 19
+[DEBUG] [2021-07-10 17:18:28] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 8fd0777a0bac440d91cf2f58893a86d6, msgType : 19
+[DEBUG] [2021-07-10 17:18:28] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : ec7a2ad138db4037a6bdf275f96cb8cb, msgType : 19
+[DEBUG] [2021-07-10 17:18:30] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 664d02549c6a4d73b71e27d6ce4909b0, msgType : 19
+[DEBUG] [2021-07-10 17:18:30] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 523b2f22cd3a47f692f37c7ba4310dec, msgType : 19
+[DEBUG] [2021-07-10 17:18:32] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : cbc1ab227b0f4d87a1a2b71cab373598, msgType : 19
+[DEBUG] [2021-07-10 17:18:32] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : f1b4b1741b444ec99c3e5c3c1132a0f2, msgType : 19
+[DEBUG] [2021-07-10 17:18:34] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 01abe94312174f2da8a4bc3c064a5e38, msgType : 19
+[DEBUG] [2021-07-10 17:18:34] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 72eab4c6214a4cd7bee0df51a1e6fab5, msgType : 19
+[DEBUG] [2021-07-10 17:18:36] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 37d332a630b2432ba6aef6549f2b5032, msgType : 19
+[DEBUG] [2021-07-10 17:18:36] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : b574632fb2844f388c1500d4aa160665, msgType : 19
+[DEBUG] [2021-07-10 17:18:38] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 3a4cb6e9d254474db30cccd0837801cd, msgType : 19
+[DEBUG] [2021-07-10 17:18:38] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 831dc584a1c841e59760d27afdedbe72, msgType : 19
+[DEBUG] [2021-07-10 17:18:40] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 3b789565a69d41d7b0a7fa4a2fb62b99, msgType : 19
+[DEBUG] [2021-07-10 17:18:40] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 7ddd0218f4044925af004ab300555a0d, msgType : 19
+[DEBUG] [2021-07-10 17:18:42] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : de7238659f744a04a053b2ac32c397b0, msgType : 19
+[DEBUG] [2021-07-10 17:18:42] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 7e2072fa971c4d68b20cab5238e4b85d, msgType : 19
+[DEBUG] [2021-07-10 17:18:44] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 4177ab3ee0644cada02759baa84975f4, msgType : 19
+[DEBUG] [2021-07-10 17:18:44] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : afc8ee25649c4ff1a17ee1145e0c741e, msgType : 19
+[DEBUG] [2021-07-10 17:18:46] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 768abece8b3d4a15bfd9796d0441a22c, msgType : 19
+[DEBUG] [2021-07-10 17:18:46] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 511d0752b702452fa24c86a74c8656aa, msgType : 19
+[DEBUG] [2021-07-10 17:18:48] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : b87af1f8b40e4e2aa7776cd040381478, msgType : 19
+[DEBUG] [2021-07-10 17:18:48] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 7c02bbeda04340648730dfe4cda5ecc4, msgType : 19
+[DEBUG] [2021-07-10 17:18:50] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 6350dff20948461c916c278b08b2cfeb, msgType : 19
+[DEBUG] [2021-07-10 17:18:50] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 1a941ab7b51e4f97813b6b39db31c8f8, msgType : 19
+[DEBUG] [2021-07-10 17:18:52] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 4f6f7a077fe544068fee952f06f903b0, msgType : 19
+[DEBUG] [2021-07-10 17:18:52] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 8e47e090a0014d95ace33df1ac5e6f15, msgType : 19
+[DEBUG] [2021-07-10 17:18:54] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : d73b876acca444869a899c424e572308, msgType : 19
+[DEBUG] [2021-07-10 17:18:54] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : dd03d9d17f2049acad554eefdfd1ad10, msgType : 19
+[DEBUG] [2021-07-10 17:18:56] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 143a5da7709c450b9aa214666ccfc847, msgType : 19
+[DEBUG] [2021-07-10 17:18:56] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 540399f25b2342df88714fd546ded6d6, msgType : 19
+[DEBUG] [2021-07-10 17:18:58] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : a5fa232bfedf49579a1a2ab6009f4287, msgType : 19
+[DEBUG] [2021-07-10 17:18:58] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 4127ca88dd4f4ab08720cc06e5dfef5a, msgType : 19
+[DEBUG] [2021-07-10 17:19:00] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 3acba83432604bfda48740e8e4526dee, msgType : 19
+[DEBUG] [2021-07-10 17:19:00] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 397863f01ff8435481896fd6316a95cf, msgType : 19
+[DEBUG] [2021-07-10 17:19:02] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 53d8ffda8ecb474eb638298ba75bc280, msgType : 19
+[DEBUG] [2021-07-10 17:19:02] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 3051ce65b0c443b0aecf2581fd5af184, msgType : 19
+[DEBUG] [2021-07-10 17:19:04] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 29413fe6ea1f4dbfb0537c0490dd693f, msgType : 19
+[DEBUG] [2021-07-10 17:19:04] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 60ac5216046e4b09b3b00f69922e0c71, msgType : 19
+[DEBUG] [2021-07-10 17:19:06] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : f90518aa6d5249d186a70d7fd66583ba, msgType : 19
+[DEBUG] [2021-07-10 17:19:06] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 2daef4c8984c4695a75f6863550c0d45, msgType : 19
+[DEBUG] [2021-07-10 17:19:06] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 395fd4a691074442b206ba68d37e306a, msgType : 18
+[DEBUG] [2021-07-10 17:19:06] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : eab9a6697406431594d6d6b18e20a516, msgType : 18
+[DEBUG] [2021-07-10 17:19:08] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 55b46643ecb34eaa9f7002f755536e9a, msgType : 19
+[DEBUG] [2021-07-10 17:19:08] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 8f4beef4b7994f70b8d721057e834878, msgType : 19
+[DEBUG] [2021-07-10 17:19:10] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : ea0498879f434fe1b4b2971eac5a74dd, msgType : 19
+[DEBUG] [2021-07-10 17:19:10] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : d3af76b1f3dc4bb88a00be6ade8946dc, msgType : 19
+[DEBUG] [2021-07-10 17:19:12] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : aa816d21be354456ab8eb35bda03848b, msgType : 19
+[DEBUG] [2021-07-10 17:19:12] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 684d0054ef454db1a43c7dda925f5928, msgType : 19
+[DEBUG] [2021-07-10 17:19:14] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 1fdf69ce9c6a44a78b87a7c261b1c54f, msgType : 19
+[DEBUG] [2021-07-10 17:19:14] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 8b86423bef4e4a96ac45f46839f24289, msgType : 19
+[DEBUG] [2021-07-10 17:19:16] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 5f10b3cc404543c797c176153c1f9848, msgType : 19
+[DEBUG] [2021-07-10 17:19:16] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : e253a1f598a345db8c5aa7e19e569d3d, msgType : 19
+[DEBUG] [2021-07-10 17:19:18] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 2ecb0973e1e74551bdcfffbab13002f6, msgType : 19
+[DEBUG] [2021-07-10 17:19:18] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : ec61fdf4779644eda1bedf50cdf423c2, msgType : 19
+[DEBUG] [2021-07-10 17:19:20] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 47aac948048c434aa66d7791fb355bd7, msgType : 19
+[DEBUG] [2021-07-10 17:19:20] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 8949dd56de094d8bbc9a4ee509251b2d, msgType : 19
+[DEBUG] [2021-07-10 17:19:22] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 4ed71d447f8e4b1bb7ed44bb97faa6fb, msgType : 19
+[DEBUG] [2021-07-10 17:19:22] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 053d551d4d1e45a2bed1d3846aa824f4, msgType : 19
+[DEBUG] [2021-07-10 17:19:24] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 1de2aaf484394b48a1f95b1a776c99ce, msgType : 19
+[DEBUG] [2021-07-10 17:19:24] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : c6893f67cadd4270978d677968b0030b, msgType : 19
+[DEBUG] [2021-07-10 17:19:26] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 9f770715a4a7443a9c547a52874a0998, msgType : 19
+[DEBUG] [2021-07-10 17:19:26] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : ebb27f6debca4c59905c0185fbfe0e1f, msgType : 19
+[DEBUG] [2021-07-10 17:19:28] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : b505632abeaa433e8b9d38a6114ad7fa, msgType : 19
+[DEBUG] [2021-07-10 17:19:28] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 81f454a6d6a74c4da7795f0034521ff3, msgType : 19
+[DEBUG] [2021-07-10 17:19:30] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 8b8862d945b94f3eae295f9f908874c4, msgType : 19
+[DEBUG] [2021-07-10 17:19:30] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 4cf0e3da4bd24e9a8e36abb0868bf170, msgType : 19
+[DEBUG] [2021-07-10 17:19:32] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 292253be90a7442b9e923fa9a3bd19e8, msgType : 19
+[DEBUG] [2021-07-10 17:19:32] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 38a62557b01e4126a92ff376f74ce88d, msgType : 19
+[DEBUG] [2021-07-10 17:19:34] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : a802716ce434483fbef61877aa9300c2, msgType : 19
+[DEBUG] [2021-07-10 17:19:34] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : ea3a6e76822d490a97d89c3838eda15d, msgType : 19
+[DEBUG] [2021-07-10 17:19:36] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : fde69e7ef6d444aa9b1d0b886d0a004e, msgType : 19
+[DEBUG] [2021-07-10 17:19:36] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 169d0369aad34d858ac45c15a259c469, msgType : 19
+[DEBUG] [2021-07-10 17:19:38] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : a5906b6a8af740f99904d704f8a6137b, msgType : 19
+[DEBUG] [2021-07-10 17:19:38] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : a3ca9899424c442199b47247217f488f, msgType : 19
+[DEBUG] [2021-07-10 17:19:40] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 72694d6005bd4a638e889e8ca9841238, msgType : 19
+[DEBUG] [2021-07-10 17:19:40] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : ace50f70f0ce4d0cadf8e1ee64010211, msgType : 19
+[DEBUG] [2021-07-10 17:19:42] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : d934e084c0ed469c9ca0c99225407507, msgType : 19
+[DEBUG] [2021-07-10 17:19:42] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 228fe8002dc34aeab20951c0f379bbf2, msgType : 19
+[DEBUG] [2021-07-10 17:19:44] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 610b47040eaf4b3fb7edd52c607831fc, msgType : 19
+[DEBUG] [2021-07-10 17:19:44] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 90ff01dfa6754570b70c8e4546003813, msgType : 19
+[DEBUG] [2021-07-10 17:19:46] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 2b2e23ca423d42939ed67c34c83876b9, msgType : 19
+[DEBUG] [2021-07-10 17:19:46] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 063968b0b044476fb797c17a322bc7e6, msgType : 19
+[DEBUG] [2021-07-10 17:19:48] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 75ff2c380205418fb64314f5d37ef745, msgType : 19
+[DEBUG] [2021-07-10 17:19:48] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : b7c4db1e12cf43bd92644e77440c4070, msgType : 19
+[DEBUG] [2021-07-10 17:19:50] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 1350bfbb78a849079fe6d4a6585cfb26, msgType : 19
+[DEBUG] [2021-07-10 17:19:50] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 52e02bc4562a4f43a2cc8426415b3221, msgType : 19
+[DEBUG] [2021-07-10 17:19:52] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 1d7c2fec646c43c597bdf2f92e5576d4, msgType : 19
+[DEBUG] [2021-07-10 17:19:52] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 599233b7dd9447db9290373b2776df38, msgType : 19
+[DEBUG] [2021-07-10 17:19:54] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 84b8a8046e3f4fcdaac3f32dda86a940, msgType : 19
+[DEBUG] [2021-07-10 17:19:54] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 64a5a37b3c87442d92d321a44018fb3d, msgType : 19
+[DEBUG] [2021-07-10 17:19:56] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : b325b2f406594974b563975525b9b89c, msgType : 19
+[DEBUG] [2021-07-10 17:19:56] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : cff58470bf0e4d7d9ae022c18b939ed5, msgType : 19
+[DEBUG] [2021-07-10 17:19:58] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 04261f657abe48358873e48f90a0133f, msgType : 19
+[DEBUG] [2021-07-10 17:19:58] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 2b78b7c1d1994ec1b15dd2599732b93c, msgType : 19
+[DEBUG] [2021-07-10 17:20:00] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : c3fe7637ba824c25be1ab4d66a70e3ad, msgType : 19
+[DEBUG] [2021-07-10 17:20:00] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 934d2beb225a45ef96cffa67a42f8048, msgType : 19
+[DEBUG] [2021-07-10 17:20:02] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 47e488bf32bb4561845fdb1a9c351034, msgType : 19
+[DEBUG] [2021-07-10 17:20:02] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 923950dd6f6b4c749420c26a8c723e52, msgType : 19
+[DEBUG] [2021-07-10 17:20:04] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 6e42633c05dc4478a0ff27a09a6114c4, msgType : 19
+[DEBUG] [2021-07-10 17:20:04] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : c9378f18fe824f468ff66af327434676, msgType : 19
+[DEBUG] [2021-07-10 17:20:06] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : c36a91250c9b47e3bda0c1dcd73f99ad, msgType : 19
+[DEBUG] [2021-07-10 17:20:06] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : b9eb3539fc1942959f8d6769a27804ca, msgType : 19
+[DEBUG] [2021-07-10 17:20:06] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 2d5b48397b5c40f1bc6467c792383a04, msgType : 18
+[DEBUG] [2021-07-10 17:20:06] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : f8e82695bbc64b2184816ebe33457ef2, msgType : 18
+[DEBUG] [2021-07-10 17:20:08] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : ca6e791bd13c474093062d130169debd, msgType : 19
+[DEBUG] [2021-07-10 17:20:08] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 21067d86e00042d895d61871080de4eb, msgType : 19
+[DEBUG] [2021-07-10 17:20:10] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 04c0f60bff904b7fa491dda44e7a1e11, msgType : 19
+[DEBUG] [2021-07-10 17:20:10] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 6c0ad12635f844cd901f447d68eb617e, msgType : 19
+[DEBUG] [2021-07-10 17:20:12] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 1224977fa2c6428dbf280926525e5153, msgType : 19
+[DEBUG] [2021-07-10 17:20:12] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 277c66350d194ae8aabb39670eed8a44, msgType : 19
+[DEBUG] [2021-07-10 17:20:14] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : dcd879742b84445e91303506b8be6a75, msgType : 19
+[DEBUG] [2021-07-10 17:20:14] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : a0cb679871324a65a69337dad0c89845, msgType : 19
+[DEBUG] [2021-07-10 17:20:16] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : b141a27605284ba5b23d5cda6c797513, msgType : 19
+[DEBUG] [2021-07-10 17:20:16] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : c1dca2a238ed4b5d926806839f27b7ca, msgType : 19
+[DEBUG] [2021-07-10 17:20:18] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : cdb4f19bc6ca455e99f1e6358750a737, msgType : 19
+[DEBUG] [2021-07-10 17:20:18] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : bdd4cc9bc7304cfdbae53a575d335d1e, msgType : 19
+[DEBUG] [2021-07-10 17:20:20] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : a3c20a4b16ae49518aa4ed04433766e2, msgType : 19
+[DEBUG] [2021-07-10 17:20:20] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 99b72b693f54432c804f776597a54aa5, msgType : 19
+[DEBUG] [2021-07-10 17:20:22] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : b7495e8ff42445c4a0c3be1f9f071cf6, msgType : 19
+[DEBUG] [2021-07-10 17:20:22] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 4f506756868c416e8c281290460f858f, msgType : 19
+[DEBUG] [2021-07-10 17:20:24] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 9217fd8b1fb04fa29605af0996a40961, msgType : 19
+[DEBUG] [2021-07-10 17:20:24] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 0da9bcc1d7da4bc5bf3d405b850190d2, msgType : 19
+[DEBUG] [2021-07-10 17:20:26] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : ee60940783dc4b1eb67382ff8d94b09d, msgType : 19
+[DEBUG] [2021-07-10 17:20:26] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 7fe9878247b943da84eea77c6cee5209, msgType : 19
+[DEBUG] [2021-07-10 17:20:28] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 5d145d78d8864e1789c17dc25ca31d58, msgType : 19
+[DEBUG] [2021-07-10 17:20:28] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 1c153ec06044434da23cc0170639e78c, msgType : 19
+[DEBUG] [2021-07-10 17:20:30] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 0d9e5391ed94404e83943a305152131c, msgType : 19
+[DEBUG] [2021-07-10 17:20:30] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : fad89e0faa744b8d85493a58b00473e5, msgType : 19
+[DEBUG] [2021-07-10 17:20:32] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : f19160f66cc140dc892504ee1b22c0b2, msgType : 19
+[DEBUG] [2021-07-10 17:20:32] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 83a4f66e879245a19e21ed0dcd63e406, msgType : 19
+[DEBUG] [2021-07-10 17:20:34] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 0ad1ceffc62048fda4ac4d9d43bcb2cf, msgType : 19
+[DEBUG] [2021-07-10 17:20:34] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 9ffd3a8c8b77470fba1dc6163f754092, msgType : 19
+[DEBUG] [2021-07-10 17:20:36] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 5c68f8d805f74c70beb3b5d9105ba481, msgType : 19
+[DEBUG] [2021-07-10 17:20:36] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 7fd76000618648aaa99f2f0f74608486, msgType : 19
+[DEBUG] [2021-07-10 17:20:38] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 740835c5a54d4b4db2fe858873084d62, msgType : 19
+[DEBUG] [2021-07-10 17:20:38] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 930ca5a367a544e8807ed046f5927075, msgType : 19
+[DEBUG] [2021-07-10 17:20:40] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 16830d0d375d4d64948b77d518b28811, msgType : 19
+[DEBUG] [2021-07-10 17:20:40] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : b5103e5a77c74c32844c780598347324, msgType : 19
+[DEBUG] [2021-07-10 17:20:42] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 9cbca91b540a4fe2aff1a96addf1a464, msgType : 19
+[DEBUG] [2021-07-10 17:20:42] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 5eebe3b0681847839fd17d8f84f1fae1, msgType : 19
+[DEBUG] [2021-07-10 17:20:44] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : b9d5b0af9df14d97b254a421860ebbf8, msgType : 19
+[DEBUG] [2021-07-10 17:20:44] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : a5704494752e410f9f1dcf7dcd8ab75c, msgType : 19
+[DEBUG] [2021-07-10 17:20:46] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 0dbfd32e7ff14e3ca6c8a20581b18850, msgType : 19
+[DEBUG] [2021-07-10 17:20:46] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 0633c1bfeb814ecf8dc402136b16363b, msgType : 19
+[DEBUG] [2021-07-10 17:20:48] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : d2e545fc96ab4c36bf9e37c07ed36577, msgType : 19
+[DEBUG] [2021-07-10 17:20:48] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : aa06ce128d2a4d28a2b94047c2ed721f, msgType : 19
+[DEBUG] [2021-07-10 17:20:50] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 4d2720185848477fbbf8011f43fdbb46, msgType : 19
+[DEBUG] [2021-07-10 17:20:50] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 67a88bba40714f3487a286e9772bccf6, msgType : 19
+[DEBUG] [2021-07-10 17:20:52] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 90681da2a6f643dc9153fe2121b3be9b, msgType : 19
+[DEBUG] [2021-07-10 17:20:52] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 8d1eb4fb9f744a77ad771d7fc493cdef, msgType : 19
+[DEBUG] [2021-07-10 17:20:54] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : d5c87dff19fc4ae1ac69b7b805aaaa30, msgType : 19
+[DEBUG] [2021-07-10 17:20:54] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : af903518f04948f7b784f124f9b20be8, msgType : 19
+[DEBUG] [2021-07-10 17:20:56] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : fe7b113da68441b3815793eff9f0a258, msgType : 19
+[DEBUG] [2021-07-10 17:20:56] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 288f66710bf0464e8a46b0363e2f6950, msgType : 19
+[DEBUG] [2021-07-10 17:20:58] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 1b2f512ddb314306b22c3271029e8cc7, msgType : 19
+[DEBUG] [2021-07-10 17:20:58] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : ad9f1a1be9194a8e8b039df6c5586e34, msgType : 19
+[DEBUG] [2021-07-10 17:21:00] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 180061bf25e841c69164bd9fb08c9486, msgType : 19
+[DEBUG] [2021-07-10 17:21:00] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 58f3fef603a6452b8dd1d92109c6569a, msgType : 19
+[DEBUG] [2021-07-10 17:21:02] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 7c1e8d1fc4654edaa912a1f8be31777b, msgType : 19
+[DEBUG] [2021-07-10 17:21:02] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : be40c69b71524c008526975e3bac9990, msgType : 19
+[DEBUG] [2021-07-10 17:21:04] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 944cbf03d98e43c4ab503e93cea8e208, msgType : 19
+[DEBUG] [2021-07-10 17:21:04] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 9780c21c3e7e4fbdb1d4efa231550c4b, msgType : 19
+[DEBUG] [2021-07-10 17:21:06] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : caa299afbc9d4e02acd02b5bc8986013, msgType : 19
+[DEBUG] [2021-07-10 17:21:06] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 0f7a8931d35941a28e1d0750bdeb2412, msgType : 19
+[DEBUG] [2021-07-10 17:21:06] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : a5ec426dfe4a41ab9f731c2105b5cf31, msgType : 18
+[DEBUG] [2021-07-10 17:21:06] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : e56f50522d434fa5b5f7465fc91409d0, msgType : 18
+[DEBUG] [2021-07-10 17:21:08] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : a5efc4a2216b4b85a29e4e843e785fe1, msgType : 19
+[DEBUG] [2021-07-10 17:21:08] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 54ae2d9e3b55421db2b64fbbdbd07993, msgType : 19
+[DEBUG] [2021-07-10 17:21:10] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : ff9101a414734d15a381dbef0563b7c4, msgType : 19
+[DEBUG] [2021-07-10 17:21:10] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 388da277ad744ea1adf3aad300b896ba, msgType : 19
+[DEBUG] [2021-07-10 17:21:12] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 516478f345fd42c5aeacc6f49a823547, msgType : 19
+[DEBUG] [2021-07-10 17:21:12] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 4142673e82774ba18e042033f76da711, msgType : 19
+[DEBUG] [2021-07-10 17:21:14] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 7754e487d9274a5fbc649d2b9713e3d9, msgType : 19
+[DEBUG] [2021-07-10 17:21:14] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 9a25c1ecccee430aa2cf25ca91e66665, msgType : 19
+[DEBUG] [2021-07-10 17:21:16] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 0a83ff7cd7ea48ba95514f7c76a638df, msgType : 19
+[DEBUG] [2021-07-10 17:21:16] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : e7d2442607f444c7ab8657fe54c74191, msgType : 19
+[DEBUG] [2021-07-10 17:21:18] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 0d3a1d5ca90a4acdab398d96150b81cf, msgType : 19
+[DEBUG] [2021-07-10 17:21:18] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 27e9a713af6c4d2fb9637dff878cc13e, msgType : 19
+[DEBUG] [2021-07-10 17:21:20] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : e91cfcdccfa14f699648293de13f1644, msgType : 19
+[DEBUG] [2021-07-10 17:21:20] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : d60cc4f232464e6da3c0b8a5d2ddc68e, msgType : 19
+[DEBUG] [2021-07-10 17:21:22] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 9b37b52b2b5a4cbbb556f78725913a19, msgType : 19
+[DEBUG] [2021-07-10 17:21:22] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 037163496c5844ef8b73d87399c3d87c, msgType : 19
+[DEBUG] [2021-07-10 17:21:24] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : fa161868a83f4fe4b28865cf98a7c604, msgType : 19
+[DEBUG] [2021-07-10 17:21:24] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 32a8b5fcd7b74fef8ae2206cdf0ebe9a, msgType : 19
+[DEBUG] [2021-07-10 17:21:26] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 0f5a6072b5c14144ba76f4d24693317f, msgType : 19
+[DEBUG] [2021-07-10 17:21:26] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : b9fe9e3612974bbbbd128afd724a0397, msgType : 19
+[DEBUG] [2021-07-10 17:21:28] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : f95e542bc78f4614bbde9304462bf564, msgType : 19
+[DEBUG] [2021-07-10 17:21:28] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 01949631dd5447ee8fb87715fe2c59f9, msgType : 19
+[DEBUG] [2021-07-10 17:21:30] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 932dd6f007f74515a5b40b6564644d1a, msgType : 19
+[DEBUG] [2021-07-10 17:21:30] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 816cfef22be7456798129cfd62b6de1b, msgType : 19
+[DEBUG] [2021-07-10 17:21:32] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 3186be3df0a24162bbd4bbddae960031, msgType : 19
+[DEBUG] [2021-07-10 17:21:32] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 71f81a66f4334168a520f2405cd3e1f1, msgType : 19
+[DEBUG] [2021-07-10 17:21:34] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : b68c3317815b4b59a0298e7bbd81f3c0, msgType : 19
+[DEBUG] [2021-07-10 17:21:34] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : b0a9e7a65eaa4a64b3b2006e8787a3a5, msgType : 19
+[DEBUG] [2021-07-10 17:21:36] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 882decf71f8749f99c581fb07268c335, msgType : 19
+[DEBUG] [2021-07-10 17:21:36] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : d48647e00745476cac2afcf094163d8d, msgType : 19
+[DEBUG] [2021-07-10 17:21:38] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : e8020c0ce2a0481196bae78c7ac0dc49, msgType : 19
+[DEBUG] [2021-07-10 17:21:38] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 341e325cb5ed46c7ba47057ded91e06b, msgType : 19
+[DEBUG] [2021-07-10 17:21:40] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 48df515d119d4ac38fb13962ecb361e1, msgType : 19
+[DEBUG] [2021-07-10 17:21:40] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 8a4b07ecb8554f958c915576323a3d26, msgType : 19
+[DEBUG] [2021-07-10 17:21:42] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 1946924478ba40ac9cb0afccc7d0635f, msgType : 19
+[DEBUG] [2021-07-10 17:21:42] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : d51443b9bfcf4a6388fc2e9d7419df83, msgType : 19
+[DEBUG] [2021-07-10 17:21:44] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 56a894f536d14c26a3377cc7e832a9af, msgType : 19
+[DEBUG] [2021-07-10 17:21:44] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 37849b8bd4804655abc201221c8bb470, msgType : 19
+[DEBUG] [2021-07-10 17:21:46] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : d38a38c2d5ba475f99a8e36bd9357213, msgType : 19
+[DEBUG] [2021-07-10 17:21:46] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : c4c805115c7b408ba1a3c7e1a1a1aec6, msgType : 19
+[DEBUG] [2021-07-10 17:21:48] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 0a4481edfacc4d25a889c274f6d44de6, msgType : 19
+[DEBUG] [2021-07-10 17:21:48] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 40e6a7d536c948978b1ed60d0dd1c464, msgType : 19
+[DEBUG] [2021-07-10 17:21:50] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : a96e8d411c504901b4a97ac5afb3ae0d, msgType : 19
+[DEBUG] [2021-07-10 17:21:50] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : e9ed37e4c8c54195aa04bccff4d28ab4, msgType : 19
+[DEBUG] [2021-07-10 17:21:52] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 8cd39637923149fb8ae0bcb28332cbcc, msgType : 19
+[DEBUG] [2021-07-10 17:21:52] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 257e2d0eed7945798c5eec76331782f7, msgType : 19
+[DEBUG] [2021-07-10 17:21:54] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : d1fb380290c94407a267c6fda63cd00f, msgType : 19
+[DEBUG] [2021-07-10 17:21:54] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : b56775d84ef74b18beca7b6685954036, msgType : 19
+[DEBUG] [2021-07-10 17:21:56] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 80d6fbf058b54815a7fc9bf4520af67e, msgType : 19
+[DEBUG] [2021-07-10 17:21:56] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : ab039157d9c14b3c97317c4cde8bf65b, msgType : 19
+[DEBUG] [2021-07-10 17:21:58] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : b77f01d90b5c4c1c99b6348231f6a080, msgType : 19
+[DEBUG] [2021-07-10 17:21:58] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 3c925c2bea3d47529978149ea05d6344, msgType : 19
+[DEBUG] [2021-07-10 17:22:00] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 633e3ee0e73e48d6aab25cd731d629a0, msgType : 19
+[DEBUG] [2021-07-10 17:22:00] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 9e8d52a421784b4b906c56208bc3ad58, msgType : 19
+[DEBUG] [2021-07-10 17:22:02] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 7fb50de081f74191b9bbba0094a26487, msgType : 19
+[DEBUG] [2021-07-10 17:22:02] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : b9976d09a3614bad8fb5029980739ba0, msgType : 19
+[DEBUG] [2021-07-10 17:22:04] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : eb10d72f852d4e1ba9a2a274a2cf9279, msgType : 19
+[DEBUG] [2021-07-10 17:22:04] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 9f3e097aeaa54f9895bf71fee5a59754, msgType : 19
+[DEBUG] [2021-07-10 17:22:06] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : fa3475875da74cdca4e35deced180af0, msgType : 19
+[DEBUG] [2021-07-10 17:22:06] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : fd5b1b1ab0a64ef4b96c0d1c14f0b1fc, msgType : 19
+[DEBUG] [2021-07-10 17:22:06] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : f76af82314244960a2323d1918fe0bda, msgType : 18
+[DEBUG] [2021-07-10 17:22:06] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 50ce4150f6404700bcdaf56475051bc4, msgType : 18
+[DEBUG] [2021-07-10 17:22:08] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : a144431d5a1748e7ad90786468fe1257, msgType : 19
+[DEBUG] [2021-07-10 17:22:08] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 4749768eeb25497697a27dab416c0854, msgType : 19
+[DEBUG] [2021-07-10 17:22:10] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : ff3cba5cdfc14a7495146cfb9721031f, msgType : 19
+[DEBUG] [2021-07-10 17:22:10] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 48bb5a8d47d54fb9bff976c203d549f0, msgType : 19
+[DEBUG] [2021-07-10 17:22:12] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 4389a5468df244e2a81e43430c7afaee, msgType : 19
+[DEBUG] [2021-07-10 17:22:12] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 53d4b83485ad4184842fe701b2d0e74a, msgType : 19
+[DEBUG] [2021-07-10 17:22:14] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 260ff78fb64643ae9e1f981c03abf818, msgType : 19
+[DEBUG] [2021-07-10 17:22:14] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : ceababa7dfac4416819710da010463ed, msgType : 19
+[DEBUG] [2021-07-10 17:22:16] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : cd5fb779a093451ab8cba233893991a2, msgType : 19
+[DEBUG] [2021-07-10 17:22:16] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 688a60ecaca74296ad97dec60ce6feb5, msgType : 19
+[DEBUG] [2021-07-10 17:22:18] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : c8f4c07b03104ed99020e3ba418fa4ff, msgType : 19
+[DEBUG] [2021-07-10 17:22:18] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 0cdc8f1b20ba422dbeee850186b333ef, msgType : 19
+[DEBUG] [2021-07-10 17:22:20] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 2f261713c89046c7aa112f1778a9982b, msgType : 19
+[DEBUG] [2021-07-10 17:22:20] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : eb7e1e8d3b5c49368a5f3c0af3101c72, msgType : 19
+[DEBUG] [2021-07-10 17:22:22] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : fe6161642c2948e4858fe54c22022224, msgType : 19
+[DEBUG] [2021-07-10 17:22:22] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : f7653ebb8e0b404c96d525d7f3910ef6, msgType : 19
+[DEBUG] [2021-07-10 17:22:24] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 8ef9875837a046d08d22d307f94a3e87, msgType : 19
+[DEBUG] [2021-07-10 17:22:24] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 86893095deb243d594e428d1d72c1c4b, msgType : 19
+[DEBUG] [2021-07-10 17:22:26] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : a7f4317fb80c4a34895c8b85080754cb, msgType : 19
+[DEBUG] [2021-07-10 17:22:26] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 1e99ebde4ad84af698ec1ed3bb328956, msgType : 19
+[DEBUG] [2021-07-10 17:22:28] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 3077e60997234ef8b1c7a8aaa374975e, msgType : 19
+[DEBUG] [2021-07-10 17:22:28] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 318e4bacd62e4c9ca35c2290fef0595e, msgType : 19
+[DEBUG] [2021-07-10 17:22:30] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 1914294ef81f428a9e2ae19c51482011, msgType : 19
+[DEBUG] [2021-07-10 17:22:30] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 73f9edfb11344b349ceb471767d1510d, msgType : 19
+[DEBUG] [2021-07-10 17:22:32] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 1bdb06116a1c4591bc53d053c951a3fb, msgType : 19
+[DEBUG] [2021-07-10 17:22:32] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 3b3b664e5b22416384292ed339a441e1, msgType : 19
+[DEBUG] [2021-07-10 17:22:34] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 4f304b82b8ba4245b3ded09c2b39acb3, msgType : 19
+[DEBUG] [2021-07-10 17:22:34] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 48d15520b31c4f949b92e780b2c2d234, msgType : 19
+[DEBUG] [2021-07-10 17:22:36] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : b844893d522748398445486eee4676db, msgType : 19
+[DEBUG] [2021-07-10 17:22:36] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : d3f4c868ff9248f3af4ab4b40b85e90e, msgType : 19
+[DEBUG] [2021-07-10 17:22:38] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 637959916a374749a09db6428c81ddcb, msgType : 19
+[DEBUG] [2021-07-10 17:22:38] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : a2d6c1bf4da24c039a284f1c75616947, msgType : 19
+[DEBUG] [2021-07-10 17:22:40] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 3a054ade650c4b9daa0ff24ed66c1e98, msgType : 19
+[DEBUG] [2021-07-10 17:22:40] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : f56f5106327d487ab440855c9164ec1f, msgType : 19
+[DEBUG] [2021-07-10 17:22:42] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : b6dd0a36172f4d91931b3454e5618d87, msgType : 19
+[DEBUG] [2021-07-10 17:22:42] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : f95c45d5f8234ee59790887c6e6d84d6, msgType : 19
+[DEBUG] [2021-07-10 17:22:44] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 565367cb91f448859a3596c45f17cf07, msgType : 19
+[DEBUG] [2021-07-10 17:22:44] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 89ebad66c67b42ce9b3d8876ca7cffee, msgType : 19
+[DEBUG] [2021-07-10 17:22:46] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : b2ec4db457f34879916470c3c83af20f, msgType : 19
+[DEBUG] [2021-07-10 17:22:46] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 007ce514bc0844fabc5127887b95ebbb, msgType : 19
+[DEBUG] [2021-07-10 17:22:48] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : ac34a654b38f495eb9d6654807531ca1, msgType : 19
+[DEBUG] [2021-07-10 17:22:48] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 047ca43bfe514dba859145198dffdc6c, msgType : 19
+[DEBUG] [2021-07-10 17:22:50] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : f5f1954ea97843eeb4ea0cd9ab8c23ed, msgType : 19
+[DEBUG] [2021-07-10 17:22:50] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : cae8c592057c4e87b40a1bf1e198b920, msgType : 19
+[DEBUG] [2021-07-10 17:22:52] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 9e3617ae30e540759fc8d2aa467f3984, msgType : 19
+[DEBUG] [2021-07-10 17:22:52] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 90b2fc5f932d4172a31c4a87ff96aa2f, msgType : 19
+[DEBUG] [2021-07-10 17:22:54] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 314249fba69a48e8bf69b0e90fb74ada, msgType : 19
+[DEBUG] [2021-07-10 17:22:54] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 8d0d535643ad4ce28b61761853e6e99a, msgType : 19
+[DEBUG] [2021-07-10 17:22:56] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 8f748669eef64e6e9722685242ba74f4, msgType : 19
+[DEBUG] [2021-07-10 17:22:56] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 84c71ad96e5a44ceb3c894a1228ab889, msgType : 19
+[DEBUG] [2021-07-10 17:22:58] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : b8a78cd6529f442aacda144c006bbf41, msgType : 19
+[DEBUG] [2021-07-10 17:22:58] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 3841c1fb5894464492acb421e3ab20bb, msgType : 19
+[DEBUG] [2021-07-10 17:23:00] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 7641cac3634e4281a0f55878cbf00ec7, msgType : 19
+[DEBUG] [2021-07-10 17:23:00] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 58bf0eeecc864f55a09560d401bbe85a, msgType : 19
+[DEBUG] [2021-07-10 17:23:02] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 0d84c124360348acb53ba885b527bd2a, msgType : 19
+[DEBUG] [2021-07-10 17:23:02] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 12f2db5f0c5c448aa14e01ae11309616, msgType : 19
+[DEBUG] [2021-07-10 17:23:04] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : fd84f40e265b48ab87e5442a46711a85, msgType : 19
+[DEBUG] [2021-07-10 17:23:04] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 8213730fde6847808afb5e3d140a9bc3, msgType : 19
+[DEBUG] [2021-07-10 17:23:06] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 5888cc69c13c4509b5b0ed4f64b92f29, msgType : 19
+[DEBUG] [2021-07-10 17:23:06] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 57af5dbfe1c44a24a09c616ddc7d0f2a, msgType : 19
+[DEBUG] [2021-07-10 17:23:06] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 00f642f77d7b4bf0bc6a4c513fcbe60d, msgType : 18
+[DEBUG] [2021-07-10 17:23:06] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 5c1ff8e909094e72874135ef8688b585, msgType : 18
+[DEBUG] [2021-07-10 17:23:08] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : becd4de1d10d4624a904c444680ba8b7, msgType : 19
+[DEBUG] [2021-07-10 17:23:08] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 98a2c14e1c8d4ddf9be62ba482ce8b83, msgType : 19
+[DEBUG] [2021-07-10 17:23:10] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 7366caf49cf64eb3a47ea57e7b20224e, msgType : 19
+[DEBUG] [2021-07-10 17:23:10] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 036018a4702449728219e40c56378200, msgType : 19
+[DEBUG] [2021-07-10 17:23:12] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 19ff309b252c40e187c48e420be6f216, msgType : 19
+[DEBUG] [2021-07-10 17:23:12] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 95d801faaa0f4ec0906159203c8ac83d, msgType : 19
+[DEBUG] [2021-07-10 17:23:14] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 47b5b0d9fcd742849ad275bc9c4585c0, msgType : 19
+[DEBUG] [2021-07-10 17:23:14] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : ff79e9590161424d9639d1bc149522b9, msgType : 19
+[DEBUG] [2021-07-10 17:23:16] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 3b138dd4531b42bdb81b9f7fceda324d, msgType : 19
+[DEBUG] [2021-07-10 17:23:16] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 920b891935784e78886939ead6e30b40, msgType : 19
+[DEBUG] [2021-07-10 17:23:18] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 6ed12b62502447be8b31a78d88066dfa, msgType : 19
+[DEBUG] [2021-07-10 17:23:18] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 0b087071e3a04e988048dcc46ffbde77, msgType : 19
+[DEBUG] [2021-07-10 17:23:20] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 3c9b66f7db654ade854733dd334e32a0, msgType : 19
+[DEBUG] [2021-07-10 17:23:20] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 451f18790e5840afbc4e7302ac7a02c8, msgType : 19
+[DEBUG] [2021-07-10 17:23:22] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 53ea100cf8824533a63e41306947c720, msgType : 19
+[DEBUG] [2021-07-10 17:23:22] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 96e294f7b33641a8ae4d9b381a231eda, msgType : 19
+[DEBUG] [2021-07-10 17:23:24] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 1dc6ab8e71934f2a9fb4ad0b373927b0, msgType : 19
+[DEBUG] [2021-07-10 17:23:24] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 5f6a4e3459b24a21a08f4b1406f74be8, msgType : 19
+[DEBUG] [2021-07-10 17:23:26] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 7953f6b2ddf4435791d1bad7df32b3a0, msgType : 19
+[DEBUG] [2021-07-10 17:23:26] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : d1a37f64ae1445cc907dae21e7755d22, msgType : 19
+[DEBUG] [2021-07-10 17:23:28] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 36fd2f75193340e0b208649a9f13fe00, msgType : 19
+[DEBUG] [2021-07-10 17:23:28] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 629c919f283948158c9c8bb4ebd9b77e, msgType : 19
+[DEBUG] [2021-07-10 17:23:30] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : be905cddec1a48ef8cd47c2760e2a8d6, msgType : 19
+[DEBUG] [2021-07-10 17:23:30] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : adbf3f5d3b4e407ebf5632ab78de610d, msgType : 19
+[DEBUG] [2021-07-10 17:23:32] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : a241933b903d4f93aee0af0b6fa122da, msgType : 19
+[DEBUG] [2021-07-10 17:23:32] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 917975cf66f74b97bc6d31f015835f70, msgType : 19
+[DEBUG] [2021-07-10 17:23:34] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 7efb905e4c5d485cba04deb23d7b56ff, msgType : 19
+[DEBUG] [2021-07-10 17:23:34] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : cd44d94ba78d4857b272ee0a15817010, msgType : 19
+[DEBUG] [2021-07-10 17:23:36] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : b73911089963494f950969b621ce92c4, msgType : 19
+[DEBUG] [2021-07-10 17:23:36] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : dfb60995e869439f85083c43cb0368d2, msgType : 19
+[DEBUG] [2021-07-10 17:23:38] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 1aaa89f2888b4b708b9023ace4382e65, msgType : 19
+[DEBUG] [2021-07-10 17:23:38] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 6834443406334a03a64cb568983d3986, msgType : 19
+[DEBUG] [2021-07-10 17:23:40] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : c475336575f141df90943e3f43b64f1e, msgType : 19
+[DEBUG] [2021-07-10 17:23:40] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 18913958fe5b4c498d35b64d11947da2, msgType : 19
+[DEBUG] [2021-07-10 17:23:42] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 0722b043cd9a450ebadf93308724044e, msgType : 19
+[DEBUG] [2021-07-10 17:23:42] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : a890d2f1cf25442c908f5d6b5c0f40bf, msgType : 19
+[DEBUG] [2021-07-10 17:23:44] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 018cd1b436854cad9a6a809bc282caca, msgType : 19
+[DEBUG] [2021-07-10 17:23:44] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : cca2bf56d9b5496288218f4852cd036e, msgType : 19
+[DEBUG] [2021-07-10 17:23:46] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 54fb1688c620477695dfe77427143240, msgType : 19
+[DEBUG] [2021-07-10 17:23:46] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 9c2fed0c3fd8408ca59a35a4cf19c940, msgType : 19
+[DEBUG] [2021-07-10 17:23:48] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 5bdc0cfdb21340809fbf4d48c9fd6d14, msgType : 19
+[DEBUG] [2021-07-10 17:23:48] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : bdd0cc38bf294f8ca9da9ad3bf1b7f8a, msgType : 19
+[DEBUG] [2021-07-10 17:23:50] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 72475bfaf2844c3288ec9fa9687c9252, msgType : 19
+[DEBUG] [2021-07-10 17:23:50] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : b935bf1855dd480aafb4b55c1391c9bc, msgType : 19
+[DEBUG] [2021-07-10 17:23:52] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 5fe6cdb9df1d410f8b1537a9a41f8687, msgType : 19
+[DEBUG] [2021-07-10 17:23:52] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 09a6ebbb37c0477a9e24cab3536951e9, msgType : 19
+[DEBUG] [2021-07-10 17:23:54] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 0a4a3d1a0e784874901e926d59087fd1, msgType : 19
+[DEBUG] [2021-07-10 17:23:54] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 44b8cf44e5604e829b3d7d4e69b59d2c, msgType : 19
+[DEBUG] [2021-07-10 17:23:56] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 651bc3214e6148d8adcf0d08da5bdbb0, msgType : 19
+[DEBUG] [2021-07-10 17:23:56] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 2b776096c2554c4bbd6b4c3b982d998a, msgType : 19
+[DEBUG] [2021-07-10 17:23:58] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 4a4a328929364634be63a3d887fc6bb9, msgType : 19
+[DEBUG] [2021-07-10 17:23:58] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : fae9a5996ff64245aa62c2eb4eea2c87, msgType : 19
+[DEBUG] [2021-07-10 17:24:00] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : cda295cbcac54281847b02e8edbbc91e, msgType : 19
+[DEBUG] [2021-07-10 17:24:00] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 2343b968d52b439ebd54028abc5af10b, msgType : 19
+[DEBUG] [2021-07-10 17:24:02] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 95c35c26ef2144fe9b7d1f668f7ce06e, msgType : 19
+[DEBUG] [2021-07-10 17:24:02] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 1b00d7bae28a40229d6db37557ce8b33, msgType : 19
+[DEBUG] [2021-07-10 17:24:04] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : c4430ad90e234ba3a8b88f2a3f0effe7, msgType : 19
+[DEBUG] [2021-07-10 17:24:04] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 94d76ef6fc2e4291a566c926878a432c, msgType : 19
+[DEBUG] [2021-07-10 17:24:06] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : e69a1cc819ac4ddd87ca9ae80f0d15fb, msgType : 19
+[DEBUG] [2021-07-10 17:24:06] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 98bf806540264570b4bed51b3a2238d7, msgType : 19
+[DEBUG] [2021-07-10 17:24:06] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 746e6c4653114bddae1a8379fe2c4e0e, msgType : 18
+[DEBUG] [2021-07-10 17:24:06] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 1a51f6be525445f2b0cd3c423d59285e, msgType : 18
+[DEBUG] [2021-07-10 17:24:08] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 4ae0151cddf34df2aeb8ac60f390b615, msgType : 19
+[DEBUG] [2021-07-10 17:24:08] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : f500ff40bdf24a6e9b7f45bfdbe4d567, msgType : 19
+[DEBUG] [2021-07-10 17:24:10] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 8a194ecd8c5045bf9e1c6adbb15d13bb, msgType : 19
+[DEBUG] [2021-07-10 17:24:10] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 8dc7ab698c9244cbb94600de3adca849, msgType : 19
+[DEBUG] [2021-07-10 17:24:12] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : b2d96105a6f34b1796614c108c2c6a06, msgType : 19
+[DEBUG] [2021-07-10 17:24:12] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : aa7152fa219843db99b4648d6bb8ff85, msgType : 19
+[DEBUG] [2021-07-10 17:24:14] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : afd4dff5e7c84237a41c3ac432f5ecc9, msgType : 19
+[DEBUG] [2021-07-10 17:24:14] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 75366d95204c4932bad5adb443431a4e, msgType : 19
+[INFO] [2021-07-10 17:33:33] ChannelHandler.userEventTriggered(105) |  ssl close completion event, host: 127.0.0.1, port: 20201, ctx: 219104139 
+[INFO] [2021-07-10 17:33:33] ChannelHandler.userEventTriggered(105) |  ssl close completion event, host: 127.0.0.1, port: 20200, ctx: 1476997444 
+[DEBUG] [2021-07-10 17:33:33] ChannelHandler.channelInactive(128) |  channelInactive, disconnect 127.0.0.1:20201 ,false
+[DEBUG] [2021-07-10 17:33:33] ChannelHandler.channelInactive(128) |  channelInactive, disconnect 127.0.0.1:20200 ,false
+[DEBUG] [2021-07-10 17:33:33] ConnectionManager.removeConnectionContext(438) |  result: true, host: 127.0.0.1, port: 20201, ctx: 219104139
+[DEBUG] [2021-07-10 17:33:33] ConnectionManager.removeConnectionContext(438) |  result: true, host: 127.0.0.1, port: 20200, ctx: 1476997444
+[DEBUG] [2021-07-10 17:33:33] ChannelMsgHandler.onDisconnect(163) | onDisconnect in ChannelMsgHandler called, host : 127.0.0.1:20201
+[DEBUG] [2021-07-10 17:33:33] ChannelMsgHandler.onDisconnect(163) | onDisconnect in ChannelMsgHandler called, host : 127.0.0.1:20200
+[DEBUG] [2021-07-10 17:33:33] BlockNumberNotifyHandler.onDisconnect(97) | onDisconnect, endpoint: 127.0.0.1:20201
+[INFO] [2021-07-10 17:33:33] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:33:33] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:33:33] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:33:33] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:33:33] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:33:33] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:33:33] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[DEBUG] [2021-07-10 17:33:33] BlockNumberNotifyHandler.onDisconnect(97) | onDisconnect, endpoint: 127.0.0.1:20200
+[INFO] [2021-07-10 17:33:33] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:33:33] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:33:33] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:33:33] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:33:33] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:33:33] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:33:33] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:33:33] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:33:33] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:33:33] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:33:33] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:33:33] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:33:33] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:33:33] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:33:33] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:33:33] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:33:33] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:33:33] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:33:33] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:33:33] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:33:33] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:33:33] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:33:33] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:33:33] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:33:33] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:33:33] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:33:33] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:33:33] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:33:33] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:33:33] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:33:33] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:33:33] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:33:33] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:33:33] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:33:33] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:33:33] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:33:33] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:33:33] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:33:33] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:33:33] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:33:33] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:33:33] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:33:33] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:33:33] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:33:33] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:33:33] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:33:33] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:33:33] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:33:33] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:33:33] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[DEBUG] [2021-07-10 17:33:33] GroupServiceImpl.removeNode(67) | g:1, removeNode=127.0.0.1:20201, blockNumberInfoSize=0, latestBlockNumber:0
+[INFO] [2021-07-10 17:33:33] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:33:33] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:33:33] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:33:33] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:33:33] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:33:33] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:33:33] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:33:33] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:33:33] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:33:33] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:33:33] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:33:33] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:33:33] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:33:33] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:33:33] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:33:33] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:33:33] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:33:33] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:33:33] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:33:33] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:33:33] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:33:33] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:33:33] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:33:33] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:33:33] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:33:33] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:33:33] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:33:33] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:33:33] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:33:33] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:33:33] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:33:33] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:33:33] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:33:33] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:33:33] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:33:33] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:33:33] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:33:33] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:33:33] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:33:33] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:33:33] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:33:33] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[INFO] [2021-07-10 17:33:33] EventPushMsgHandler.onDisconnect(92) |  filter connection disconnect
+[DEBUG] [2021-07-10 17:33:33] GroupServiceImpl.resetLatestBlockNumber(161) | g:1, resetLatestBlockNumber, latestBlockNumber: 99, nodeWithLatestBlockNumber:[], maxBlockNumber: 99
+[DEBUG] [2021-07-10 17:33:33] TopicManager.updateBlockNotify(158) | update block notify, peer: 127.0.0.1:20201, groupInfo: [1]
+[DEBUG] [2021-07-10 17:33:33] TopicManager.updateBlockNotify(163) | add block notify, peer: 127.0.0.1:20201, topic: _block_notify_1
+[DEBUG] [2021-07-10 17:33:33] GroupServiceImpl.removeNode(67) | g:1, removeNode=127.0.0.1:20200, blockNumberInfoSize=0, latestBlockNumber:0
+[INFO] [2021-07-10 17:33:33] AmopImp.sendSubscribe(216) | update subscribe inform 0 peers
+[DEBUG] [2021-07-10 17:33:33] TopicManager.updateBlockNotify(158) | update block notify, peer: 127.0.0.1:20200, groupInfo: [1]
+[DEBUG] [2021-07-10 17:33:33] TopicManager.updateBlockNotify(163) | add block notify, peer: 127.0.0.1:20200, topic: _block_notify_1
+[INFO] [2021-07-10 17:33:33] AmopImp.sendSubscribe(216) | update subscribe inform 0 peers
+[INFO] [2021-07-10 17:33:43] ConnectionManager.reconnect(197) |  reconnect to 127.0.0.1:20200 success
+[DEBUG] [2021-07-10 17:33:43] SslHandler.setHandshakeSuccess(1746) | [id: 0x9a43a988, L:/127.0.0.1:61819 - R:/127.0.0.1:20200] HANDSHAKEN: protocol:TLSv1.2 cipher suite:TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384
+[INFO] [2021-07-10 17:33:43] ChannelHandler.userEventTriggered(73) |  handshake success, host: 127.0.0.1, port: 20200, ctx: 663395683
+[DEBUG] [2021-07-10 17:33:43] ConnectionManager.addConnectionContext(427) | addConnectionContext, endpoint: 127.0.0.1:20200, ctx:ChannelHandlerContext(ChannelHandler#0, [id: 0x9a43a988, L:/127.0.0.1:61819 - R:/127.0.0.1:20200])
+[DEBUG] [2021-07-10 17:33:43] ChannelMsgHandler.onConnect(112) | onConnect in ChannelMsgHandler called, host : 127.0.0.1:20200
+[DEBUG] [2021-07-10 17:33:43] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : df441ff395274b759f0428b5c92c9590, msgType : 18
+[INFO] [2021-07-10 17:33:43] ChannelMsgHandler$1.onResponse(225) |  node: ClientVersion{version='2.7.2', supportedVersion='2.7.2', chainId='1', buildTime='20210201 10:15:37', buildType='Darwin/appleclang/RelWithDebInfo', gitBranch='HEAD', gitCommitHash='4c8a5bbe44c19db8a002017ff9dbb16d3d28e9da'}, content: {"id":8,"jsonrpc":"2.0","result":{"Build Time":"20210201 10:15:37","Build Type":"Darwin/appleclang/RelWithDebInfo","Chain Id":"1","FISCO-BCOS Version":"2.7.2","Git Branch":"HEAD","Git Commit Hash":"4c8a5bbe44c19db8a002017ff9dbb16d3d28e9da","Supported Version":"2.7.2"}}
+
+[INFO] [2021-07-10 17:33:43] ChannelMsgHandler$1.onResponse(233) |  support channel handshake node
+[DEBUG] [2021-07-10 17:33:43] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : ba07d70be59e43a89f86d7c27b8933a0, msgType : 20
+[INFO] [2021-07-10 17:33:43] ChannelMsgHandler$2.onResponse(309) |  channel protocol handshake success, set socket channel protocol, host: 127.0.0.1:20200, channel protocol: ChannelProtocol [protocol=3, nodeVersion=2.7.2, EnumProtocol=VERSION_3]
+[INFO] [2021-07-10 17:33:43] GetNodeVersionHandler.onConnect(38) | GetNodeVersionHandler: onConnect, endpoint: 127.0.0.1:20200
+[INFO] [2021-07-10 17:33:43] AmopMsgHandler.onConnect(76) | Node connected, update topics to node. node:127.0.0.1:20200
+[DEBUG] [2021-07-10 17:33:43] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : f1d4734d7f6a45f6b9b7b263ddc2abf6, msgType : 18
+[DEBUG] [2021-07-10 17:33:43] GroupServiceImpl.<init>(45) | insert group: 1 for peer 127.0.0.1:20200
+[DEBUG] [2021-07-10 17:33:43] TopicManager.updateBlockNotify(158) | update block notify, peer: 127.0.0.1:20200, groupInfo: [1]
+[DEBUG] [2021-07-10 17:33:43] TopicManager.updateBlockNotify(163) | add block notify, peer: 127.0.0.1:20200, topic: _block_notify_1
+[INFO] [2021-07-10 17:33:43] AmopImp.sendSubscribe(216) | update subscribe inform 1 peers
+[DEBUG] [2021-07-10 17:33:43] AmopImp.updateSubscribeToPeer(238) | update topics to node, node:127.0.0.1:20200, topics:["_block_notify_1"]
+[DEBUG] [2021-07-10 17:33:43] GroupManagerServiceImpl.getAndUpdateBlockNumberForAllPeers(528) | g: 1, getAndUpdateBlockNumberForAllPeers, group availablePeers:[127.0.0.1:20200]
+[DEBUG] [2021-07-10 17:33:43] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 8f758c6824d44b558b9a72637c6465d3, msgType : 18
+[DEBUG] [2021-07-10 17:33:43] GroupServiceImpl.updatePeersBlockNumberInfo(104) | updatePeersBlockNumberInfo for 127.0.0.1:20200, updated blockNumber: 99, groupId: 1
+[DEBUG] [2021-07-10 17:33:43] GroupServiceImpl.updateLatestBlockNumber(127) | g:1, updateLatestBlockNumber, latestBlockNumber: 99, nodeWithLatestBlockNumber:[127.0.0.1:20200]
+[DEBUG] [2021-07-10 17:33:43] GroupManagerServiceImpl.fetchAndUpdateBlockNumberInfo(542) | fetch and update the blockNumber information, groupId: 1, peer:127.0.0.1:20200, blockNumber: 99
+[DEBUG] [2021-07-10 17:33:43] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : a3246c0ce08e44429375354ced37d2dd, msgType : 18
+[INFO] [2021-07-10 17:33:43] ConnectionManager.reconnect(197) |  reconnect to 127.0.0.1:20201 success
+[DEBUG] [2021-07-10 17:33:43] SslHandler.setHandshakeSuccess(1746) | [id: 0x8b9e1872, L:/127.0.0.1:61820 - R:/127.0.0.1:20201] HANDSHAKEN: protocol:TLSv1.2 cipher suite:TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384
+[INFO] [2021-07-10 17:33:43] ChannelHandler.userEventTriggered(73) |  handshake success, host: 127.0.0.1, port: 20201, ctx: 1568256558
+[DEBUG] [2021-07-10 17:33:43] ConnectionManager.addConnectionContext(427) | addConnectionContext, endpoint: 127.0.0.1:20201, ctx:ChannelHandlerContext(ChannelHandler#0, [id: 0x8b9e1872, L:/127.0.0.1:61820 - R:/127.0.0.1:20201])
+[DEBUG] [2021-07-10 17:33:43] ChannelMsgHandler.onConnect(112) | onConnect in ChannelMsgHandler called, host : 127.0.0.1:20201
+[DEBUG] [2021-07-10 17:33:43] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 31b08ca808264e93a97f62aaecb38165, msgType : 18
+[INFO] [2021-07-10 17:33:43] ChannelMsgHandler$1.onResponse(225) |  node: ClientVersion{version='2.7.2', supportedVersion='2.7.2', chainId='1', buildTime='20210201 10:15:37', buildType='Darwin/appleclang/RelWithDebInfo', gitBranch='HEAD', gitCommitHash='4c8a5bbe44c19db8a002017ff9dbb16d3d28e9da'}, content: {"id":9,"jsonrpc":"2.0","result":{"Build Time":"20210201 10:15:37","Build Type":"Darwin/appleclang/RelWithDebInfo","Chain Id":"1","FISCO-BCOS Version":"2.7.2","Git Branch":"HEAD","Git Commit Hash":"4c8a5bbe44c19db8a002017ff9dbb16d3d28e9da","Supported Version":"2.7.2"}}
+
+[INFO] [2021-07-10 17:33:43] ChannelMsgHandler$1.onResponse(233) |  support channel handshake node
+[DEBUG] [2021-07-10 17:33:43] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 28ba368a6dcb4f0282b565cdb41f84a1, msgType : 20
+[INFO] [2021-07-10 17:33:43] ChannelMsgHandler$2.onResponse(309) |  channel protocol handshake success, set socket channel protocol, host: 127.0.0.1:20201, channel protocol: ChannelProtocol [protocol=3, nodeVersion=2.7.2, EnumProtocol=VERSION_3]
+[INFO] [2021-07-10 17:33:43] GetNodeVersionHandler.onConnect(38) | GetNodeVersionHandler: onConnect, endpoint: 127.0.0.1:20201
+[INFO] [2021-07-10 17:33:43] AmopMsgHandler.onConnect(76) | Node connected, update topics to node. node:127.0.0.1:20201
+[DEBUG] [2021-07-10 17:33:43] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 7bc8ed94d85644b98d72ffb3058e2c50, msgType : 18
+[DEBUG] [2021-07-10 17:33:43] GroupServiceImpl.insertNode(84) | g:1, insertNode=127.0.0.1:20201, nodeSize=2, blockNumberInfoSize=1
+[DEBUG] [2021-07-10 17:33:43] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 2bd4495c3cd049e7a7b55fa4111313bb, msgType : 18
+[DEBUG] [2021-07-10 17:33:43] GroupServiceImpl.updatePeersBlockNumberInfo(104) | updatePeersBlockNumberInfo for 127.0.0.1:20201, updated blockNumber: 99, groupId: 1
+[DEBUG] [2021-07-10 17:33:43] GroupServiceImpl.updateLatestBlockNumber(127) | g:1, updateLatestBlockNumber, latestBlockNumber: 99, nodeWithLatestBlockNumber:[127.0.0.1:20200, 127.0.0.1:20201]
+[DEBUG] [2021-07-10 17:33:43] GroupManagerServiceImpl.fetchAndUpdateBlockNumberInfo(542) | fetch and update the blockNumber information, groupId: 1, peer:127.0.0.1:20201, blockNumber: 99
+[DEBUG] [2021-07-10 17:33:43] TopicManager.updateBlockNotify(158) | update block notify, peer: 127.0.0.1:20201, groupInfo: [1]
+[DEBUG] [2021-07-10 17:33:43] TopicManager.updateBlockNotify(163) | add block notify, peer: 127.0.0.1:20201, topic: _block_notify_1
+[INFO] [2021-07-10 17:33:43] AmopImp.sendSubscribe(216) | update subscribe inform 2 peers
+[DEBUG] [2021-07-10 17:33:43] AmopImp.updateSubscribeToPeer(238) | update topics to node, node:127.0.0.1:20200, topics:["_block_notify_1"]
+[DEBUG] [2021-07-10 17:33:43] AmopImp.updateSubscribeToPeer(238) | update topics to node, node:127.0.0.1:20201, topics:["_block_notify_1"]
+[DEBUG] [2021-07-10 17:33:43] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 6468c52efe0043849497dae176c18029, msgType : 18
+[DEBUG] [2021-07-10 17:33:43] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 294b10dbfa074c8f9b1a54f41023cab2, msgType : 19
+[DEBUG] [2021-07-10 17:33:43] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : de379ab4137f41cbb5521472ea811a03, msgType : 19
+[DEBUG] [2021-07-10 17:33:45] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : ce72e31749e54e6d8fdec37324ffe680, msgType : 19
+[DEBUG] [2021-07-10 17:33:45] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : d70e9b1fc8ec4e7f93784a638335c000, msgType : 19
+[DEBUG] [2021-07-10 17:33:47] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : d7c9f9c602dd4dea9e12ee5630056ff5, msgType : 19
+[DEBUG] [2021-07-10 17:33:47] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : b39ffe51d7614e51b6cc7b19bbc22c91, msgType : 19
+[DEBUG] [2021-07-10 17:33:49] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : fafc7d20e7024b13885e7a343ce55d62, msgType : 19
+[DEBUG] [2021-07-10 17:33:49] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 4adf8b00ccde467987e968b2c9a5e29e, msgType : 19
+[DEBUG] [2021-07-10 17:33:51] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : ed3192a432934160b8299c0652f19f66, msgType : 19
+[DEBUG] [2021-07-10 17:33:51] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : e5938963aaa3456d9c30893c172ddfb9, msgType : 19
+[DEBUG] [2021-07-10 17:33:53] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : a199868b0381450db3bc789d6f252451, msgType : 19
+[DEBUG] [2021-07-10 17:33:53] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : a69c11bd785448e094b3de4e09beaf6d, msgType : 19
+[DEBUG] [2021-07-10 17:33:55] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 99c37271408f4be3befad9de3819d70e, msgType : 19
+[DEBUG] [2021-07-10 17:33:55] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : c514699a09014f4d9a5684341a13d2df, msgType : 19
+[DEBUG] [2021-07-10 17:33:57] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : f098b91a62594c659c8ae2e8f7377a9e, msgType : 19
+[DEBUG] [2021-07-10 17:33:57] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 1ca68208a2fc4618b8c2f12ad77b6ee0, msgType : 19
+[DEBUG] [2021-07-10 17:33:59] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 9de7878f507544a09dbc48751ade08c1, msgType : 19
+[DEBUG] [2021-07-10 17:33:59] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : d71b3f7dcbae44b29938d94dc623e30a, msgType : 19
+[DEBUG] [2021-07-10 17:34:01] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 0c5927569ec540679b4744f6ceeffb60, msgType : 19
+[DEBUG] [2021-07-10 17:34:01] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 1f8689637eab418ab3d8b9fbf2f3e87f, msgType : 19
+[DEBUG] [2021-07-10 17:34:03] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 4f1f96f8e50a4aad8a8edf2a64f08c23, msgType : 19
+[DEBUG] [2021-07-10 17:34:03] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 14e0a03fa6214b44a8eab9e77f05c38c, msgType : 19
+[DEBUG] [2021-07-10 17:34:05] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 4c0c5362a4884207bbba7763774d08f0, msgType : 19
+[DEBUG] [2021-07-10 17:34:05] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 52441bdecf434fac9b88ecd6895fb19c, msgType : 19
+[DEBUG] [2021-07-10 17:34:07] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 940a707d73454e3babba3b0b666635a1, msgType : 19
+[DEBUG] [2021-07-10 17:34:07] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 89642df585764f3382331d09787582b7, msgType : 19
+[DEBUG] [2021-07-10 17:34:09] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 49ca067e92634913a8da13254df6b5b8, msgType : 19
+[DEBUG] [2021-07-10 17:34:09] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 080fbded572c47c9a6a00863f5db14de, msgType : 19
+[DEBUG] [2021-07-10 17:34:11] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 4463b36c3b514376ad906a6913e20f45, msgType : 19
+[DEBUG] [2021-07-10 17:34:11] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 654938f846b64d75966770c39352d814, msgType : 19
+[DEBUG] [2021-07-10 17:34:13] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 34c3a0797b8d44908d38d890dddcf9fb, msgType : 19
+[DEBUG] [2021-07-10 17:34:13] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : aff134e1ce98479e86069d1c6362905b, msgType : 19
+[DEBUG] [2021-07-10 17:34:15] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 7465f0a725d24160ae0e4af29f3da3cd, msgType : 19
+[DEBUG] [2021-07-10 17:34:15] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 63f374fb8ec64040a0441375be22d7a6, msgType : 19
+[DEBUG] [2021-07-10 17:34:17] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : ea192b81b1404151a7d49c8b5b1a9323, msgType : 19
+[DEBUG] [2021-07-10 17:34:17] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 4276acf4101b4f83a043a0cf96ce3d54, msgType : 19
+[DEBUG] [2021-07-10 17:34:19] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 3e9f71f78c8c4814836472f6d5b21995, msgType : 19
+[DEBUG] [2021-07-10 17:34:19] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : 9efea8e23d894633bac24bca77a20dd7, msgType : 19
+[DEBUG] [2021-07-10 17:34:21] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20200, seq : 6ef19ae50ece46eeb476a48142dea3a3, msgType : 19
+[DEBUG] [2021-07-10 17:34:21] ChannelMsgHandler.onMessage(123) | onMessage in ChannelMsgHandler called, host : 127.0.0.1:20201, seq : ba020d8f6f3e464e94bad787b78b5a1c, msgType : 19
