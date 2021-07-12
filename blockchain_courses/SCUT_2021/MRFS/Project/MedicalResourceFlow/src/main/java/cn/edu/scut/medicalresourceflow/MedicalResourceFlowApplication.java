@@ -1,0 +1,17 @@
+package cn.edu.scut.medicalresourceflow;
+
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.transaction.annotation.EnableTransactionManagement;
+
+@SpringBootApplication
+@EnableTransactionManagement
+@MapperScan("cn.edu.scut.medicalresourceflow.dao")
+public class MedicalResourceFlowApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(MedicalResourceFlowApplication.class, args);
+    }
+
+}
