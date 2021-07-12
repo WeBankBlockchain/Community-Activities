@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.fisco.app.mapper.ApplyAgencyMapper">
+    <update id="updateResult" parameterType="com.fisco.app.dto.AddAgencyDTO">
+        update apply_agency set result = #{result} where id = #{id};
+    </update>
+    <select id="findApplyAgency" parameterType="String" resultType="ApplyAgency">
+        select * from apply_agency where id = #{Id};
+    </select>
+    <select id="QueryARForUser" resultType="com.fisco.app.pojo.ApplyAgencyForUser">
+        select apply_agency.id, apply_role, USCC, result from apply_agency where apply_id = #{applyId} order by result;
+    </select>
+    <select id="QueryARForAdmin" resultType="com.fisco.app.pojo.ApplyAgencyForAdmin">
+        select apply_agency.id, apply_id, name, apply_role, apply_agency.USCC, result from apply_agency,user where apply_agency.apply_id = user.id order by result;
+    </select>
+    <insert id="addApplyAgency">
+        insert into apply_agency(apply_id,apply_role,USCC,result) values
+        (#{userId},#{role},#{uscc},0);
+    </insert>
+</mapper>

@@ -1,0 +1,17 @@
+// list.json
+{
+  "code":"0",
+  "message":"message信息",
+  "lists":[
+      {
+        "name":"小明",
+        "sex":"男",
+        "age": "3"
+      },
+      {
+        "name":"小红",
+        "sex":"女",
+        "age":"3"
+      }
+    ]
+}

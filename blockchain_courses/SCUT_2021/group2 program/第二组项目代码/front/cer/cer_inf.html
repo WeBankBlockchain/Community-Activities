@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Dashboard - Brand</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+
+</head>
+
+<body id="page-top">
+    <div id="wrapper">
+        <nav class="navbar navbar-dark align-items-start sidebar sidebar-dark accordion bg-gradient-primary p-0">
+            <div class="container-fluid d-flex flex-column p-0">
+                <div class="container-fluid d-flex flex-column p-0">
+                    <div class="container">
+                        <h1
+                            style="color: rgb(255,255,255);font-size: 18px;padding-left: 9px;padding-right: 0px;padding-top: 22px;text-align: center;">
+                            学习凭证网络</h1>
+                    </div>
+                    <a class="navbar-brand d-flex justify-content-center align-items-center sidebar-brand m-0" href="#">
+                        <div class="sidebar-brand-icon rotate-n-15"><i class="fas fa-laugh-wink"></i></div>
+                        <div class="sidebar-brand-text mx-3"><span>证书机构</span></div>
+                    </a>
+                    <hr class="sidebar-divider my-0">
+                    <ul class="nav navbar-nav text-light" id="accordionSidebar">
+                        <li class="nav-item"><a class="nav-link" href="cer_inf.html"><i
+                                    class="far fa-edit"></i><span>修改信息</span></a></li>
+                        <li class="nav-item"><a class="nav-link" href="cer_index.html"><i
+                                    class="fas fa-clipboard-list"></i><span>证书列表</span></a></li>
+                        <li class="nav-item"><a class="nav-link" href="cer_apply.html"><i
+                                    class="fas fa-user"></i><span>申请颁发证书</span></a></li>
+                        <li class="nav-item"><a class="nav-link" href="cer_issue.html"><i
+                                    class="fas fa-table"></i><span>颁发证书</span></a></li>
+                        <li class="nav-item"><a class="nav-link" href="../login.html"><i
+                                    class="far fa-times-circle"></i><span>退出系统</span></a></li>
+                    </ul>
+                    <div class="text-center d-none d-md-inline"></div>
+                </div>
+        </nav>
+        <div class="d-flex flex-column" id="content-wrapper">
+            <div id="content" style="margin-top: 30px;">
+                <h1 style="font-style: normal;color: rgb(103,114,195);">机构信息</h1>
+                <div class="row mb-3">
+                    <div class="col-lg-4">
+                        <div class="card mb-3" style="padding-left: 20px;">
+                            <div class="card-body text-center shadow"><img class="rounded-circle mb-3 mt-4"
+                                    src="../assets/img/dogs/image2.jpeg" width="160" height="160">
+                                <div class="mb-3">
+                                    <h1 id="enterName">机构名字</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="row mb-3 d-none">
+                            <div class="col">
+                                <div class="card text-white bg-primary shadow">
+                                    <div class="card-body">
+                                        <div class="row mb-2">
+                                            <div class="col">
+                                                <p class="m-0">Peformance</p>
+                                                <p class="m-0"><strong>65.2%</strong></p>
+                                            </div>
+                                            <div class="col-auto"><i class="fas fa-rocket fa-2x"></i></div>
+                                        </div>
+                                        <p class="text-white-50 small m-0"><i class="fas fa-arrow-up"></i>&nbsp;5%
+                                            since last month</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card text-white bg-success shadow">
+                                    <div class="card-body">
+                                        <div class="row mb-2">
+                                            <div class="col">
+                                                <p class="m-0">Peformance</p>
+                                                <p class="m-0"><strong>65.2%</strong></p>
+                                            </div>
+                                            <div class="col-auto"><i class="fas fa-rocket fa-2x"></i></div>
+                                        </div>
+                                        <p class="text-white-50 small m-0"><i class="fas fa-arrow-up"></i>&nbsp;5%
+                                            since last month</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <div class="card shadow mb-3">
+                                    <div class="card-header py-3">
+                                        <p class="text-primary m-0 font-weight-bold">User Settings</p>
+                                    </div>
+                                    <div class="card-body">
+                                        <form>
+                                            <div class="form-row">
+                                                <div class="col">
+                                                    <div class="form-group"><label
+                                                            for="username"><strong>旧密码</strong><br></label><input
+                                                            type="password" class="form-control" type="text"
+                                                            id="oldPassword" placeholder="old password" name="username">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="form-row">
+                                                <div class="col">
+                                                    <div class="form-group"><label
+                                                            for="first_name"><strong>新密码</strong><br></label><input
+                                                            type="password" class="form-control" type="text"
+                                                            id="newPassword" placeholder="new password"
+                                                            name="first_name"></div>
+                                                </div>
+                                                <div class="col">
+                                                    <div class="form-group"><label
+                                                            for="last_name"><strong>确认密码</strong><br></label><input
+                                                            type="password" class="form-control" type="text"
+                                                            id="newPasswordAgain" placeholder="new password again"
+                                                            name="last_name"></div>
+                                                </div>
+                                            </div>
+                                            <div class="form-group"><button class="btn btn-primary btn-sm" type="button"
+                                                    id="changePassButton">修改密码</button></div>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="card shadow"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <script src="../assets/js/jquery.js"></script>
+            <script src="../assets/js/enterTools.js"></script>
+            <script src="../assets/js/global.js"></script>
+            <script>
+                window.onload = function () {
+                    let userId = getQueryString('userId');
+                    console.log("刚进入页面获取userid" + userId);
+
+                    //发送信息到接口获取用户信息
+
+                    let userName = "yellow duck"
+                    $("#enterName").html(userName);
+                    $("#topEnterName").html(userName);
+
+                    //修改密码按钮
+                    $('#changePassButton').on('click', function () {
+                        var oldPassword = $("#oldPassword").val();
+                        var newPassword = $("#newPassword").val();
+                        if (oldPassword == "" || newPassword == "" || $("#newPasswordAgain").val() == "") {
+                            alert("请输入相关密码信息再更改");
+                            return;
+                        }
+                        if (oldPassword == newPassword) {
+                            alert("新旧密码相同");
+                            return;
+                        }
+                        if (newPassword != $("#newPasswordAgain").val()) {
+                            alert("两次输入的新密码不同");
+                            return;
+                        }
+                        //发送http请求
+
+                        $.ajax({
+                            contentType: 'application/json',
+                            dataType: "json",
+                            type: "POST",
+
+                            url: 'http://' + globalStr.urlStr + '/Auth/modifyPwd',
+                            data: JSON.stringify({
+                                "id": userId,
+                                "pwd": newPassword
+                            }),
+                            success: function (result) {
+                                if (result.message == "成功") {
+                                    alert("修改密码成功");
+                                    //清空输入框
+                                    $("#oldPassword").val("");
+                                    $("#newPassword").val("");
+                                    $("#newPasswordAgain").val("")
+                                }
+                            }
+                        })
+
+                    })
+
+
+
+
+                }
+            </script>
+</body>
+
+</html>
