@@ -46,6 +46,7 @@ deps/**
 .idea
 build/**
 dist**
+node_modules**
 
 # submodules
 bcos-cmake-scripts/**
