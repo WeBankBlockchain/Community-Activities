@@ -1,0 +1,42 @@
+page {
+  height: 100%;
+}
+
+.code-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background-color: #F5F5F5;
+}
+
+.toptips {
+  margin-top: 40px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.white {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+  background-color: white;
+  padding-bottom: 20px;
+}
+
+.canvas {
+  z-index: 100;
+  margin: auto;
+  width: 200px;
+  height: 200px;
+}
+
+.tips{
+  font-size: 14px;
+  font-weight: 600;
+  color: #535151;
+}

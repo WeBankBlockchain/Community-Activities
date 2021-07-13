@@ -1,0 +1,28 @@
+<view class="news1-container">
+
+  <image class='background' src="../../images/index/ground.png" mode='widthFix'></image>
+
+  <swiper indicator-dots="true" autoplay="true" interval="5000" duration="1000"
+    circular="true">
+    <block wx:for="{{img}}" wx:for-index="index">
+      <swiper-item class="picture">
+        <image src="{{item}}" class="slide-image" />
+      </swiper-item>
+    </block>
+  </swiper>
+ 
+  <button class="button1" bindtap="touch1">
+    <view class="text">
+      <view class="text1">扫码溯源</view>
+      <view class="text11">用户扫描商品上的溯源码获取溯源信息</view>
+    </view>
+    <image class="operation-img1" src="../../images/index/screen.png" />
+  </button>
+  <button class="button2" bindtap="touch2">
+    <view class="text">
+      <view class="text1"> 工厂出库</view>
+      <view class="text11">管理员扫描商品的溯源码实现入库出库</view>
+    </view>
+    <image class="operation-img2" src="../../images/index/import.png" />
+  </button>
+</view>

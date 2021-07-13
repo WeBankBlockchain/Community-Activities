@@ -1,0 +1,17 @@
+<!--pages/mine/unhandled/unhandled.wxml-->
+<view class="enter-contain">
+  <view class="box-list">
+    <view class="box-title-row">
+      <view class="box-column1">序号</view>
+      <view style="width:8px;"></view>
+      <view class="box-column2">发货方ID</view>
+      <view style="width:8px;"></view>
+      <view class="box-column3">操作</view>
+    </view>
+    <view wx:for="{{list}}" wx:key="id" class="box-data-row">
+      <view class="box-column1">{{item.id}}</view>
+      <view class="box-column2">{{item.number}}</view>
+      <view class="box-column3" bindtap="enter">查看</view>
+    </view>
+  </view>
+</view>

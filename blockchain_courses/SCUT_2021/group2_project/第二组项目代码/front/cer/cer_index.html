@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+
+
+</head>
+
+<body id="page-top">
+    <div id="wrapper">
+        <nav class="navbar navbar-dark align-items-start sidebar sidebar-dark accordion bg-gradient-primary p-0">
+            <div class="container-fluid d-flex flex-column p-0">
+                <div class="container-fluid d-flex flex-column p-0">
+                    <div class="container">
+                        <h1
+                            style="color: rgb(255,255,255);font-size: 18px;padding-left: 9px;padding-right: 0px;padding-top: 22px;text-align: center;">
+                            学习凭证网络</h1>
+                    </div>
+                    <a class="navbar-brand d-flex justify-content-center align-items-center sidebar-brand m-0" href="#">
+                        <div class="sidebar-brand-icon rotate-n-15"><i class="fas fa-laugh-wink"></i></div>
+                        <div class="sidebar-brand-text mx-3"><span>证书机构</span></div>
+                    </a>
+                    <hr class="sidebar-divider my-0">
+                    <ul class="nav navbar-nav text-light" id="accordionSidebar">
+                        <li class="nav-item"><a class="nav-link" href="cer_inf.html"><i
+                                    class="far fa-edit"></i><span>修改信息</span></a></li>
+                        <li class="nav-item"><a class="nav-link" href="cer_index.html"><i
+                                    class="fas fa-clipboard-list"></i><span>证书列表</span></a></li>
+                        <li class="nav-item"><a class="nav-link" href="cer_apply.html"><i
+                                    class="fas fa-user"></i><span>申请颁发证书</span></a></li>
+                        <li class="nav-item"><a class="nav-link" href="cer_issue.html"><i
+                                    class="fas fa-table"></i><span>颁发证书</span></a></li>
+                        <li class="nav-item"><a class="nav-link" href="../login.html"><i
+                                    class="far fa-times-circle"></i><span>退出系统</span></a></li>
+                    </ul>
+                    <div class="text-center d-none d-md-inline"></div>
+                </div>
+        </nav>
+        <div class="d-flex flex-column" id="content-wrapper">
+            <div id="content">
+                <nav class="navbar navbar-light navbar-expand bg-white shadow mb-4 topbar static-top">
+                    <div class="container-fluid"><button class="btn btn-link d-md-none rounded-circle mr-3"
+                            id="sidebarToggleTop" type="button"><i class="fas fa-bars"></i></button>
+                        <form
+                            class="form-inline d-none d-sm-inline-block mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
+                            <div class="input-group"><input class="bg-light form-control border-0 small" type="text"
+                                    placeholder="Search for ...">
+                                <div class="input-group-append"><button class="btn btn-primary py-0" type="button"
+                                        id="btn"><strong>查询证书</strong></button></div>
+                            </div>
+                        </form>
+                    </div>
+                </nav>
+                <div class="container-fluid">
+                    <div class="d-sm-flex justify-content-between align-items-center mb-4">
+                        <h3 class="text-dark mb-0">证书列表</h3>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="table-responsive">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>证书ID</th>
+                                            <th>证书名称</th>
+                                            <th>有效期</th>
+                                            <th>审批结果</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="tbody">
+
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer class="bg-white sticky-footer">
+                <div class="container my-auto">
+                    <div class="text-center my-auto copyright"></div>
+                </div>
+            </footer>
+        </div>
+    </div>
+</body>
+<script src="../assets/js/jquery.js"></script>
+<script src="../assets/js/normalTools.js"></script>
+<script src="../assets/js/global.js"></script>
+
+<script>
+    window.onload = function () {
+
+        var oT = document.getElementById("tbody");
+
+
+        $.ajax({
+            contentType: 'application/json',
+            dataType: "json",
+            type: "POST",
+            url: 'http://' + globalStr.urlStr + '/Info/ApplyCertListForUser',
+
+            data: JSON.stringify({
+                "agencyId": "100004"
+
+            }),
+
+
+
+            success: function (result) {
+                var obj = result;
+                var arr = obj.data;
+                var str = '';
+                for (var i = 0; i < arr.length; i++) {
+                    str += '<tr><td>' + arr[i].certId + '</td><td>' + arr[i].certName +
+                        '</td><td>' + arr[i].validity + '</td><td>' + arr[i].result +
+                        '</td></tr>';
+
+                }
+                oT.innerHTML = str;
+
+
+            },
+            error: function () {
+                alert("请求失败");
+            }
+
+        })
+    }
+</script>
+
+</html>

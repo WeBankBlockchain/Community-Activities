@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/info/info",
+    "pages/code/code",
+    "pages/item/item",
+    "pages/mine/advice/advice",
+    "pages/mine/knowledge/knowledge",
+    "pages/mine/introduction/introduction",
+    "pages/mine/mine",
+    "pages/enter/enter",
+    "pages/trace/trace",
+    "pages/mine/unhandled/unhandled",
+    "pages/mine/handled/handled"
+  ],
+  "window": {
+    "backgroundColor": "#F8F8F8",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#31CBFA",
+    "navigationBarTitleText": "溯源天下",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#31CBFA",
+    "backgroundColor": "#494848",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "tabbarComponent/icon/index-wei.png",
+        "selectedIconPath": "tabbarComponent/icon/index-ok.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "iconPath": "tabbarComponent/icon/mine-wei.png",
+        "selectedIconPath": "tabbarComponent/icon/mine-ok.png",
+        "text": "我的"
+      }
+    ]
+  }
+}
