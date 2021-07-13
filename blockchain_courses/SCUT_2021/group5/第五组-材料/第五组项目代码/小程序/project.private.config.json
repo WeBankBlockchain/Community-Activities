@@ -1,0 +1,90 @@
+{
+  "cloudfunctionRoot": "cloudfunctions/",
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "pages/index/index",
+          "pathName": "pages/index/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/test/test",
+          "pathName": "pages/test/test",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/trace/trace",
+          "pathName": "pages/trace/trace",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/enter/enter",
+          "pathName": "pages/enter/enter",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/mine/mine",
+          "pathName": "pages/mine/mine",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/mine/introduction/introduction",
+          "pathName": "pages/mine/introduction/introduction",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/mine/knowledge/knowledge",
+          "pathName": "pages/mine/knowledge/knowledge",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/mine/advice/advice",
+          "pathName": "pages/mine/advice/advice",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/item/item",
+          "pathName": "pages/item/item",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/code/code",
+          "pathName": "pages/code/code",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/info/info",
+          "pathName": "pages/info/info",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/mine/unhandled/unhandled",
+          "pathName": "pages/mine/unhandled/unhandled",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

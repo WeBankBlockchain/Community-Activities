@@ -1,0 +1,27 @@
+page {
+  height: 100%;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  height: 100%;
+  background-color: #F5F5F5;
+}
+
+.top{
+  font-weight: 500;
+  font-size: 14px;
+  margin-bottom:15px;
+  margin-left: 20px;
+}
+
+.info{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  padding-left: 40px;
+  font-weight: 600;
+  font-size: 16px;
+}

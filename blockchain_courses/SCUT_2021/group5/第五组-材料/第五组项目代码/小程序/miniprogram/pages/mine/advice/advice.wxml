@@ -1,0 +1,11 @@
+<view class="advice-container">
+  <image class="logo" src="../../../images/contact/logo.png" />
+  <view class="contact">
+    <text class="contact-text">如果您有什么需要,欢迎来电:</text>
+    <text class="contact-text">刘先生</text>
+    <text class="contact-text">电话：+86  1234567890</text>
+    <text class="contact-text">邮箱：hello.scut.com</text>
+    <text class="contact-text">期待您的来电与致信！</text>
+  </view>
+  <image class="bottom" src="../../../images/contact/bottom.png" />
+</view>

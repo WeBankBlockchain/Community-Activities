@@ -1,0 +1,51 @@
+<view class="enter-contain">
+  <view class="toolarea">
+    <view class="tool" bindtap="search">
+      <image class="image-tool" src="../../images/enter/search.png" />
+      <text class="text-tool">扫码查询</text>
+    </view>
+    <view class="tool" bindtap="submit">
+      <image class="image-tool" src="../../images/enter/submit.png" />
+      <text class="text-tool">提交订单</text>
+    </view>
+    <view class="tool" bindtap="clear">
+      <image class="image-tool" src="../../images/enter/clear.png" />
+      <text class="text-tool">清空列表</text>
+    </view>
+  </view>
+  <view class="box-list">
+    <view class="box-title-row">
+      <view class="box-column1">序号</view>
+      <view style="width:8px;"></view>
+      <view class="box-column2">商品序列号</view>
+      <view style="width:8px;"></view>
+      <view class="box-column3">操作</view>
+    </view>
+    <view wx:for="{{list}}" wx:key="id" class="box-data-row">
+      <view class="box-column1">{{item.id}}</view>
+      <view class="box-column2">{{item.number}}</view>
+      <view class="box-column3" bindtap="del" data-index="{{index}}">删除</view>
+    </view>
+  </view>
+  <view class="button" bindtap="scan">
+    <image class="code-image" src="../../images/enter/screen.png" />
+    <view style="width:14px"></view>
+    <view class="code-text">点击扫码</view>
+  </view>
+</view>
+<view wx:if="{{isshow}}" class="model">
+  <view class="background"></view>
+  <view class="selfdefshowmodal">
+    <view style="height:5px"></view>
+    <view class="sender">发货人ID：<view style="width:10px"></view>{{openid}}</view>
+    <view class="sender" wx:if="{{isid}}">收货人ID：<button class="but0" bindtap="scanid">扫码获取</button></view>
+    <view class="sender" wx:else="{{isid}}">收货人ID：<view style="width:10px"></view>{{receiver}}</view>
+    <view class="address">发货地址： <input class="input1" bindinput="send_from" placeholder="请输入发货地址" /></view>
+    <view class="address">收货地址： <input class="input1" bindinput="send_to" placeholder="请输入收货地址" /></view>
+    <view class="butt">
+      <button class="but1" bindtap="ok">确定</button>
+      <button class="but2" bindtap="cancel">取消</button>
+    </view>
+    <view style="height:5px"></view>
+  </view>
+</view>

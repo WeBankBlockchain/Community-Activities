@@ -1,0 +1,8 @@
+<view class="intro-container">
+  <image class="back" src="../../../images/introduction/back.png" />
+  <view class="whitebox"></view>
+  <text class="info" decode="{{true}}"> &ensp; &ensp;本系统由“天下溯源”开发团队开发，主要服务于“天下溯源”的用户。
+    &ensp; &ensp;普通用户可以通过首页的“扫码溯源”功能，对购买的商品进行产地、运输等过程的全方位溯源；
+    &ensp; &ensp;管理用户可以通过首页的“工厂出库”功能，对生产或购买的商品进行转运，确保商品的流转信息全部上链。</text>
+
+</view>

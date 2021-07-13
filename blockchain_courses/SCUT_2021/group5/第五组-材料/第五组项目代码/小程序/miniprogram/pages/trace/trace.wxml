@@ -1,0 +1,12 @@
+<view class="trace-container">
+  <image class="logo" src="../../images/trace/logo.png" />
+  <text class="text-screen">扫码查询</text>
+  <view class="button-code" bindtap="scan">
+    <image class="image-code" src="../../images/trace/screen.png" />
+    <view style="width:12px"></view>
+    <text class="code-text">点击扫码</text>
+  </view>
+  <text class="introduction">查询方法</text>
+  <text class="describe" space="ensp" decode="{{true}}">&ensp; &ensp; 扫描商品外二维码，即可查询</text>
+  <image class="image-bottom" src="../../images/trace/bottom.png" />
+</view>
