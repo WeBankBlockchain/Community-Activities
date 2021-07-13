@@ -1,0 +1,11 @@
+<view class="info-container">
+  <view class="top">您的货物ID号为：{{itemid}}</view>
+  <view style="font-weight:600;font-size:16px;">这是该物品的运输信息：</view>
+  <view class="info" wx:for="{{info}}" wx:key="id">
+    <view class="infomation">序号：{{item.id}}</view>
+    <view class="infomation">发货方ID：{{item.sendID}}</view>
+    <view class="infomation">发货方地址：{{item.send_from}}</view>
+    <view class="infomation">收货方ID：{{item.receiveID}}</view>
+    <view class="infomation">收货方地址：{{item.send_to}}</view>
+  </view>
+</view>
