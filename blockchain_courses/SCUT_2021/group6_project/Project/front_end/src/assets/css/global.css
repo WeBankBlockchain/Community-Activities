@@ -1,0 +1,36 @@
+html,
+body,
+#app {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: AlibabaPuHuiTi-Regular, AlibabaPuHuiTi;
+	font-weight: 400;
+}
+
+.el-button {
+	color: #252525;
+	font-size: 18px;
+}
+.el-dialog__header {
+	padding: 0 !important;
+}
+.el-dialog__body {
+	padding: 0 !important;
+}
+.loginDialog .el-dialog {
+	width: 460px;
+	height: 600px;
+}
+.slideDialog .el-dialog {
+}
+.el-dialog {
+	background: #ffffff;
+	box-shadow: 0px 5px 80px 0px rgba(0, 0, 0, 0.05);
+	border-radius: 20px;
+}
+
+input {
+	border: none;
+	outline-style: none;
+}
