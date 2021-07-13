@@ -1,0 +1,50 @@
+{
+  "name": "mst",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "echarts": "^4.9.0",
+    "element-ui": "^2.4.5",
+    "eslint": "^7.12.1",
+    "jquery": "^3.6.0",
+    "less-loader": "^5.0.0",
+    "lib-flexible": "^0.3.2",
+    "nprogress": "^0.2.0",
+    "ol": "^6.5.0",
+    "postcss": "^8.1.4",
+    "postcss-loader": "^4.0.4",
+    "postcss-px-to-viewport": "^1.1.1",
+    "swiper": "^5.4.5",
+    "vue": "^2.6.11",
+    "vue-awesome-swiper": "^4.1.1",
+    "vue-router": "^3.5.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.5.8",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-service": "^4.5.8",
+    "axios": "^0.21.1",
+    "babel-plugin-component": "^1.1.1",
+    "less": "^4.1.1",
+    "vue-cli-plugin-element": "^1.0.1",
+    "vue-template-compiler": "^2.6.11",
+    "vuex": "^3.6.2"
+  },
+  "//": {
+    "postcss": {
+      "plugins": {
+        "autoprefixer": {},
+        "postcss-px-to-viewport": {
+          "viewportWidth": 1920,
+          "viewportHeight": 1080,
+          "minPixelValue": 1
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,192 @@
+/* ！说明 
+这个全局样式定义了项目需要用到的字体，字形，字号，字重等，
+具体到每一个vue可以在需要定义字体的地方 直接 给元素加上这个类，就可以实现样式控制，
+而不需要自己写，避免重复工作
+当然，如果你的vue中需要更多属性或者不同的行高可以直接在自己的局部css中给类加上想要的属性，
+因为局部样式优先级高于全局样式，你的样式会生效
+*/
+
+
+/* 导入资源，字体资源文件已经在font目录下了 */
+@font-face{
+    font-family: 'AlibabaPuHuiTi-Medium';
+    /* 重命名字体名 */
+    src: url('./../font/Alibaba-PuHuiTi-Medium.ttf');
+    /* font-weight: normal;
+    font-style: normal; */
+}
+
+@font-face{
+    font-family: 'AlibabaPuHuiTi-Regular';
+    /* 重命名字体名 */
+    src: url('./../font/Alibaba-PuHuiTi-Regular.ttf');
+    /* font-weight: normal;
+    font-style: normal; */
+}
+
+
+/* 阿里巴巴普惠体medium的各种字号 */
+.font-medium-32 {
+    font-family: AlibabaPuHuiTi-Medium, serif;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 32px;
+}
+.font-medium-24 {
+    font-family: AlibabaPuHuiTi-Medium, serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 24px;
+}
+.font-medium-18 {
+    font-family: AlibabaPuHuiTi-Medium, serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: px;
+}
+.font-medium-16 {
+    font-family: AlibabaPuHuiTi-Medium, serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+}
+.font-medium-14 {
+    font-family: AlibabaPuHuiTi-Medium, serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 14px;
+}
+.font-medium-12 {
+    font-family: AlibabaPuHuiTi-Medium, serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 12px;
+}
+
+
+/* 阿里巴巴普惠体medium的各种字号，且字体颜色为白色 */
+.font-medium-white-32 {
+    font-family: AlibabaPuHuiTi-Medium, serif;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #ffffff;
+}
+.font-medium-white-24 {
+    font-family: AlibabaPuHuiTi-Medium, serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #ffffff;
+}
+.font-medium-white-18 {
+    font-family: AlibabaPuHuiTi-Medium, serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: px;
+    color: #ffffff;
+}
+.font-medium-white-16 {
+    font-family: AlibabaPuHuiTi-Medium, serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    color: #ffffff;
+}
+.font-medium-white-14 {
+    font-family: AlibabaPuHuiTi-Medium, serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 14px;
+    color: #ffffff;
+}
+.font-medium-white-12 {
+    font-family: AlibabaPuHuiTi-Medium, serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 12px;
+    color: #ffffff;
+}
+
+/* 阿里巴巴普惠体regular的各种字号 */
+.font-regular-32 {
+    font-family: AlibabaPuHuiTi-Regular, AlibabaPuHuiTi;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 32px;
+}
+.font-regular-24 {
+    font-family: AlibabaPuHuiTi-Regular, AlibabaPuHuiTi;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.font-regular-18 {
+    font-family: AlibabaPuHuiTi-Regular, AlibabaPuHuiTi;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+}
+.font-regular-16 {
+    font-family: AlibabaPuHuiTi-Regular, AlibabaPuHuiTi;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+}
+.font-regular-14 {
+    font-family: AlibabaPuHuiTi-Regular, AlibabaPuHuiTi;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+}
+.font-regular-12 {
+    font-family: AlibabaPuHuiTi-Regular, AlibabaPuHuiTi;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+}
+
+
+/* 阿里巴巴普惠体regular的各种字号，且字体颜色为白色 */
+.font-regular-white-32 {
+    font-family: AlibabaPuHuiTi-Regular, AlibabaPuHuiTi;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #ffffff;
+}
+.font-regular-white-24 {
+    font-family: AlibabaPuHuiTi-Regular, AlibabaPuHuiTi;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #ffffff;
+}
+.font-regular-white-18 {
+    font-family: AlibabaPuHuiTi-Regular, AlibabaPuHuiTi;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #ffffff;
+}
+.font-regular-white-16 {
+    font-family: AlibabaPuHuiTi-Regular, AlibabaPuHuiTi;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #ffffff;
+}
+.font-regular-white-14 {
+    font-family: AlibabaPuHuiTi-Regular, AlibabaPuHuiTi;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    color: #ffffff;
+}
+.font-regular-white-12 {
+    font-family: AlibabaPuHuiTi-Regular, AlibabaPuHuiTi;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    color: #ffffff;
+}
