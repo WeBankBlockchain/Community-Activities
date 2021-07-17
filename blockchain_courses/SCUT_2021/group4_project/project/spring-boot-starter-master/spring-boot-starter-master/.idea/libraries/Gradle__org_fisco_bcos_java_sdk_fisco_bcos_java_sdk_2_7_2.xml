@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.fisco-bcos.java-sdk:fisco-bcos-java-sdk:2.7.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.fisco-bcos.java-sdk/fisco-bcos-java-sdk/2.7.2/f9b1c110567aae2a49477f97f1bebe6c45011fe8/fisco-bcos-java-sdk-2.7.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.fisco-bcos.java-sdk/fisco-bcos-java-sdk/2.7.2/48d470f34fb99f1b08e172f92556bb68ee69d4c7/fisco-bcos-java-sdk-2.7.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

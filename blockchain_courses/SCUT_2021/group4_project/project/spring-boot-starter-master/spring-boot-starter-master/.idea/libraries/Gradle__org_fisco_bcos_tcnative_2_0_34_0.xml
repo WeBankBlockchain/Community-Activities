@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.fisco-bcos:tcnative:2.0.34.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.fisco-bcos/tcnative/2.0.34.0/d76b76c1fdadce1d9df9e1c7aa6a79bc24c7018d/tcnative-2.0.34.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.fisco-bcos/tcnative/2.0.34.0/ac1350273a1f9d4a9fda5e2b618e02fa08531543/tcnative-2.0.34.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
