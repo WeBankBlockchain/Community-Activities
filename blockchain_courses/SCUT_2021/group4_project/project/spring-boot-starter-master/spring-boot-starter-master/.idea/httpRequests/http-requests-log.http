@@ -1,0 +1,12 @@
+GET http://localhost:8080/hello/set
+
+###
+
+GET http://localhost:8080/hello/get
+
+###
+
+GET http://localhost:8080/hello/get
+
+###
+
