@@ -1,0 +1,14 @@
+server:
+  port: 7022
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: fisco
+    password: Aa12345!
+    url: jdbc:mysql://localhost:/login?characterEncoding=utf-8&useSSL=false
+    jpa:
+      show-sql: true
+
+  profiles:
+    active: dev
