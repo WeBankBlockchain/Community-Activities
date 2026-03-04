@@ -26,7 +26,7 @@
         <div class="three">
           <b>
             &copy;2021 MST占位占位 | XXXXXXXXXXX号 !--
-            <a href="http://fisco-bcos.org/zh/">占位占 位</a> --
+            <a href="">占位占 位</a> --
           </b>
         </div>
       </div>
